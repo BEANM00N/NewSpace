@@ -1853,3 +1853,282 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.04-18.42.26:422][517]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/MenuCubeStart84D021CD421ADE069A8DACA8FD04BB6B.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Actors/MenuCubeStart.uasset'
 [2022.11.04-18.42.26:450][517]AssetCheck: New page: Asset Save: MenuCubeStart
 [2022.11.04-18.42.26:450][517]LogContentValidation: Display: Validating Blueprint /Game/TESTCHAR/Actors/MenuCubeStart.MenuCubeStart
+[2022.11.04-18.57.45:496][ 87]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.11.04-18.57.45:516][ 87]LogContentBrowser: Creating deferred item: NewFolder
+[2022.11.04-18.57.45:533][ 88]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.11.04-18.57.56:054][714]LogContentBrowser: Attempting asset rename: NewFolder -> MenuLevel
+[2022.11.04-18.57.56:055][714]LogContentBrowser: End creating deferred item NewFolder
+[2022.11.04-18.58.00:057][949]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2022.11.04-18.58.00:073][949]LogContentBrowser: Creating deferred item: NewWorld
+[2022.11.04-18.58.00:119][951]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2022.11.04-18.58.07:914][420]LogContentBrowser: Attempting asset rename: NewWorld -> MainMenu
+[2022.11.04-18.58.07:917][420]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.04-18.58.07:979][420]LogContentBrowser: End creating deferred item NewWorld
+[2022.11.04-18.58.14:451][789]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2022.11.04-18.58.16:360][789]LogSlate: Window 'Save Content' being destroyed
+[2022.11.04-18.58.16:576][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2022.11.04-18.58.16:580][789]LogSavePackage: Moving output files for package: /Game/TESTCHAR/MenuLevel/MainMenu
+[2022.11.04-18.58.16:580][789]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/MainMenu4F886CE44CCFD9073DE2E9965C333862.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/MenuLevel/MainMenu.umap'
+[2022.11.04-18.58.16:582][789]LogFileHelpers: Saving map 'MainMenu' took 0.130
+[2022.11.04-18.58.16:594][789]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu
+[2022.11.04-18.58.16:594][789]Cmd: MAP LOAD FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/MenuLevel/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.04-18.58.16:595][789]LightingResults: New page: Lighting Build
+[2022.11.04-18.58.16:595][789]LoadErrors: New page: Loading map: MainMenu.umap
+[2022.11.04-18.58.16:636][789]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.04-18.58.16:686][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-18.58.16:696][789]MapCheck: New page: Map Check
+[2022.11.04-18.58.16:696][789]LightingResults: New page: Lighting Build
+[2022.11.04-18.58.16:806][789]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.04-18.58.16:941][789]LogSlate: Slate User Unregistered.  User Index 8
+[2022.11.04-18.58.16:941][789]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2022.11.04-18.58.16:945][789]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2022.11.04-18.58.16:947][789]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2022.11.04-18.58.16:947][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-18.58.17:098][789]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2022.11.04-18.58.17:218][789]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2022.11.04-18.58.17:222][789]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2022.11.04-18.58.17:222][789]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.04-18.58.17:222][789]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.04-18.58.17:223][789]LogAIModule: Creating AISystem for world MainMenu
+[2022.11.04-18.58.17:274][789]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.04-18.58.17:441][789]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2022.11.04-18.58.17:455][789]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.04-18.58.17:455][789]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.104ms to complete.
+[2022.11.04-18.58.17:455][789]LogFileHelpers: Loading map 'MainMenu' took 0.861
+[2022.11.04-18.58.17:478][789]AssetCheck: New page: Asset Save: MainMenu
+[2022.11.04-18.58.17:478][789]LogContentValidation: Display: Validating World /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu
+[2022.11.04-18.58.36:357][273]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2022.11.04-18.58.36:357][273]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2022.11.04-18.58.36:359][273]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.DirectionalLight_0
+[2022.11.04-18.58.36:359][273]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.DirectionalLight_0
+[2022.11.04-18.58.41:935][602]LogEditorViewport: Clicking Background
+[2022.11.04-18.59.59:387][ 55]LogEditorViewport: Clicking Background
+[2022.11.04-19.00.08:093][612]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit_C
+[2022.11.04-19.00.08:093][612]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit_C
+[2022.11.04-19.00.08:095][612]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit as actor: MenuCubeQuit_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeQuit_C_0
+[2022.11.04-19.00.08:098][612]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit as actor: MenuCubeQuit_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeQuit_C_0
+[2022.11.04-19.00.11:105][897]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit_C
+[2022.11.04-19.00.11:105][897]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit_C
+[2022.11.04-19.00.11:109][897]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit as actor: MenuCubeQuit_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeQuit_C_1
+[2022.11.04-19.00.11:112][897]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit as actor: MenuCubeQuit_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeQuit_C_1
+[2022.11.04-19.00.23:904][661]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeStart.MenuCubeStart_C
+[2022.11.04-19.00.23:904][661]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeStart.MenuCubeStart_C
+[2022.11.04-19.00.23:906][661]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeStart.MenuCubeStart as actor: MenuCubeStart_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeStart_C_0
+[2022.11.04-19.00.23:908][661]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeStart.MenuCubeStart as actor: MenuCubeStart_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeStart_C_0
+[2022.11.04-19.00.24:683][706]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeStart.MenuCubeStart_C
+[2022.11.04-19.00.24:683][706]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeStart.MenuCubeStart_C
+[2022.11.04-19.00.24:687][706]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeStart.MenuCubeStart as actor: MenuCubeStart_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeStart_C_1
+[2022.11.04-19.00.24:690][706]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeStart.MenuCubeStart as actor: MenuCubeStart_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeStart_C_1
+[2022.11.04-19.00.29:043][949]Cmd: TRANSACTION UNDO
+[2022.11.04-19.00.29:044][949]LogEditorTransaction: Undo Move Elements
+[2022.11.04-19.00.29:433][949]LogMaterial: Display: Missing cached shadermap for Preview:RedGlow in PCD3D_SM5, Default, SM5 (DDC key hash: 786F89273C083532689AE198246F9968BD853702), compiling. 
+[2022.11.04-19.00.29:438][949]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E33BFDBEEFFD02BC7493F17361EB7E574F02CC42), compiling. 
+[2022.11.04-19.00.29:450][949]LogMaterial: Display: Missing cached shadermap for Preview:BlueGlow in PCD3D_SM5, Default, SM5 (DDC key hash: ABAA0AB57E7C1D1BEA77AA8CA6F351C2C93C4E52), compiling. 
+[2022.11.04-19.00.29:473][949]LogMaterial: Display: Missing cached shadermap for Preview:CubeMat in PCD3D_SM5, Default, SM5 (DDC key hash: E7EBBD0F8BD430C5823508E3B9B42E9C8B984D90), compiling. 
+[2022.11.04-19.00.29:663][949]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.04-19.00.29:664][949]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.29:664][949]MaterialEditorStats: Shader Count: 0
+[2022.11.04-19.00.29:664][949]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.04-19.00.29:664][949]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.29:664][949]MaterialEditorStats: Shader Count: 0
+[2022.11.04-19.00.29:664][949]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.04-19.00.29:664][949]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.29:664][949]MaterialEditorStats: Shader Count: 0
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display: ================================================
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display: Total job queries 523, among them cache hits 419 (80.11%)
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display: Tracking 81 distinct input hashes that result in 43 distinct outputs (53.09%)
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display: RAM used: 0.26 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.03%
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display: Shaders Compiled: 63
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display: Jobs assigned 81, completed 81 (100.00%)
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display: Average time worker was idle: 845.51 s
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display: Time job spent in pending queue: average 1.95 s, longest 13.60 s
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display: Job execution time: average 18.15 s, max 56.88 s
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display: Job life time (pending + execution): average 20.11 s, max 56.91
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 190.06 s
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display: Jobs were issued in 62 batches (only local compilation was used), average 1.31 jobs/batch
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display: Average processing rate: 0.43 jobs/sec
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display: Effective parallelization: 2.67 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyLQ (compiled    1 times, average 11.39 sec, max 11.39 sec, min 11.39 sec)
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    4 times, average 11.23 sec, max 13.09 sec, min 9.73 sec)
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    1 times, average 10.91 sec, max 10.91 sec, min 10.91 sec)
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    4 times, average 10.77 sec, max 12.70 sec, min 9.47 sec)
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    4 times, average 10.63 sec, max 13.10 sec, min 9.67 sec)
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.04-19.00.29:782][951]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 13.87% of total time (compiled    9 times, average 7.82 sec, max 10.16 sec, min 6.66 sec)
+[2022.11.04-19.00.29:783][951]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.91% of total time (compiled    8 times, average 8.18 sec, max 10.95 sec, min 1.57 sec)
+[2022.11.04-19.00.29:783][951]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 8.86% of total time (compiled    4 times, average 11.23 sec, max 13.09 sec, min 9.73 sec)
+[2022.11.04-19.00.29:783][951]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 8.50% of total time (compiled    4 times, average 10.77 sec, max 12.70 sec, min 9.47 sec)
+[2022.11.04-19.00.29:783][951]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 8.39% of total time (compiled    4 times, average 10.63 sec, max 13.10 sec, min 9.67 sec)
+[2022.11.04-19.00.29:783][951]LogShaderCompilers: Display: ================================================
+[2022.11.04-19.00.29:798][952]MaterialEditorStats: Texture samplers: 4/16
+[2022.11.04-19.00.29:799][952]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.29:799][952]MaterialEditorStats: Shader Count: 2
+[2022.11.04-19.00.29:799][952]MaterialEditorStats: Texture samplers: 4/16
+[2022.11.04-19.00.29:799][952]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.29:799][952]MaterialEditorStats: Shader Count: 2
+[2022.11.04-19.00.29:799][952]MaterialEditorStats: Texture samplers: 4/16
+[2022.11.04-19.00.29:799][952]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.29:799][952]MaterialEditorStats: Shader Count: 2
+[2022.11.04-19.00.31:162][ 29]Cmd: TRANSACTION UNDO
+[2022.11.04-19.00.31:162][ 29]LogEditorTransaction: Undo Create Actors
+[2022.11.04-19.00.31:535][ 29]LogMaterial: Display: Missing cached shadermap for Preview:RedGlow in PCD3D_SM5, Default, SM5 (DDC key hash: 90F6ECA37FB0F0B0C6DD209BB490704F621CCE5D), compiling. 
+[2022.11.04-19.00.31:543][ 29]LogMaterial: Display: Missing cached shadermap for Preview:BlueGlow in PCD3D_SM5, Default, SM5 (DDC key hash: F0B47D2E20EF3D50A5EFABDE76EA69775B7C3FA0), compiling. 
+[2022.11.04-19.00.31:551][ 29]LogMaterial: Display: Missing cached shadermap for Preview:CubeMat in PCD3D_SM5, Default, SM5 (DDC key hash: 6FEEFA945100D78C14A7A6FBB3BDB3B1DD92CEBF), compiling. 
+[2022.11.04-19.00.31:557][ 29]Cmd: TRANSACTION UNDO
+[2022.11.04-19.00.31:558][ 29]LogEditorTransaction: Undo Move Elements
+[2022.11.04-19.00.31:926][ 29]LogMaterial: Display: Missing cached shadermap for Preview:RedGlow in PCD3D_SM5, Default, SM5 (DDC key hash: 0768FB42366B0F0E9B31398280C3F8FD35C126EB), compiling. 
+[2022.11.04-19.00.31:934][ 29]LogMaterial: Display: Missing cached shadermap for Preview:BlueGlow in PCD3D_SM5, Default, SM5 (DDC key hash: 6C37110063B310299E0779A0C66DBB46A807D224), compiling. 
+[2022.11.04-19.00.31:942][ 29]LogMaterial: Display: Missing cached shadermap for Preview:CubeMat in PCD3D_SM5, Default, SM5 (DDC key hash: 7DB814F0079E642AA0089475510278B26D531CB7), compiling. 
+[2022.11.04-19.00.32:332][ 29]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.04-19.00.32:332][ 29]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.32:332][ 29]MaterialEditorStats: Shader Count: 0
+[2022.11.04-19.00.32:332][ 29]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.04-19.00.32:332][ 29]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.32:332][ 29]MaterialEditorStats: Shader Count: 0
+[2022.11.04-19.00.32:332][ 29]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.04-19.00.32:332][ 29]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.32:332][ 29]MaterialEditorStats: Shader Count: 0
+[2022.11.04-19.00.32:439][ 32]MaterialEditorStats: Texture samplers: 4/16
+[2022.11.04-19.00.32:439][ 32]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.32:439][ 32]MaterialEditorStats: Shader Count: 2
+[2022.11.04-19.00.32:439][ 32]MaterialEditorStats: Texture samplers: 4/16
+[2022.11.04-19.00.32:439][ 32]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.32:439][ 32]MaterialEditorStats: Shader Count: 2
+[2022.11.04-19.00.32:439][ 32]MaterialEditorStats: Texture samplers: 4/16
+[2022.11.04-19.00.32:439][ 32]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.32:439][ 32]MaterialEditorStats: Shader Count: 2
+[2022.11.04-19.00.33:749][102]Cmd: TRANSACTION UNDO
+[2022.11.04-19.00.33:749][102]LogEditorTransaction: Undo Create Actors
+[2022.11.04-19.00.34:119][102]LogMaterial: Display: Missing cached shadermap for Preview:RedGlow in PCD3D_SM5, Default, SM5 (DDC key hash: FBF91919AE5AFE635EE2F5EE24F17EDFF8F15676), compiling. 
+[2022.11.04-19.00.34:127][102]LogMaterial: Display: Missing cached shadermap for Preview:BlueGlow in PCD3D_SM5, Default, SM5 (DDC key hash: 76DA41054518545D7DEF70715F745AFD55F8062E), compiling. 
+[2022.11.04-19.00.34:135][102]LogMaterial: Display: Missing cached shadermap for Preview:CubeMat in PCD3D_SM5, Default, SM5 (DDC key hash: 86856B353E63953C1472394C8A9B48D7B684B748), compiling. 
+[2022.11.04-19.00.34:290][102]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.04-19.00.34:290][102]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.34:290][102]MaterialEditorStats: Shader Count: 0
+[2022.11.04-19.00.34:290][102]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.04-19.00.34:290][102]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.34:290][102]MaterialEditorStats: Shader Count: 0
+[2022.11.04-19.00.34:290][102]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.04-19.00.34:290][102]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.34:290][102]MaterialEditorStats: Shader Count: 0
+[2022.11.04-19.00.34:363][105]MaterialEditorStats: Texture samplers: 4/16
+[2022.11.04-19.00.34:363][105]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.34:363][105]MaterialEditorStats: Shader Count: 2
+[2022.11.04-19.00.34:363][105]MaterialEditorStats: Texture samplers: 4/16
+[2022.11.04-19.00.34:363][105]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.34:363][105]MaterialEditorStats: Shader Count: 2
+[2022.11.04-19.00.34:363][105]MaterialEditorStats: Texture samplers: 4/16
+[2022.11.04-19.00.34:363][105]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.34:364][105]MaterialEditorStats: Shader Count: 2
+[2022.11.04-19.00.36:898][251]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit_C
+[2022.11.04-19.00.36:898][251]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit_C
+[2022.11.04-19.00.36:900][251]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit as actor: MenuCubeQuit_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeQuit_C_2
+[2022.11.04-19.00.36:903][251]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit as actor: MenuCubeQuit_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeQuit_C_2
+[2022.11.04-19.00.38:009][364]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit_C
+[2022.11.04-19.00.38:009][364]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit_C
+[2022.11.04-19.00.38:012][364]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit as actor: MenuCubeQuit_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeQuit_C_3
+[2022.11.04-19.00.38:015][364]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit as actor: MenuCubeQuit_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeQuit_C_3
+[2022.11.04-19.00.38:911][416]Cmd: TRANSACTION UNDO
+[2022.11.04-19.00.38:911][416]LogEditorTransaction: Undo Create Actors
+[2022.11.04-19.00.39:310][416]LogMaterial: Display: Missing cached shadermap for Preview:RedGlow in PCD3D_SM5, Default, SM5 (DDC key hash: 729EB9549DA91702519328E6946C90E19C2D5C5B), compiling. 
+[2022.11.04-19.00.39:318][416]LogMaterial: Display: Missing cached shadermap for Preview:BlueGlow in PCD3D_SM5, Default, SM5 (DDC key hash: 6ED1BD5863D973E8A6B1CBFD85A13314F181C642), compiling. 
+[2022.11.04-19.00.39:326][416]LogMaterial: Display: Missing cached shadermap for Preview:CubeMat in PCD3D_SM5, Default, SM5 (DDC key hash: 50A7B1DFFFD1822076CB3F8CED439CC471391B69), compiling. 
+[2022.11.04-19.00.39:525][416]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.04-19.00.39:525][416]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.39:525][416]MaterialEditorStats: Shader Count: 0
+[2022.11.04-19.00.39:525][416]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.04-19.00.39:525][416]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.39:526][416]MaterialEditorStats: Shader Count: 0
+[2022.11.04-19.00.39:526][416]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.04-19.00.39:526][416]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.39:526][416]MaterialEditorStats: Shader Count: 0
+[2022.11.04-19.00.39:666][419]MaterialEditorStats: Texture samplers: 4/16
+[2022.11.04-19.00.39:666][419]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.39:666][419]MaterialEditorStats: Shader Count: 2
+[2022.11.04-19.00.39:666][419]MaterialEditorStats: Texture samplers: 4/16
+[2022.11.04-19.00.39:666][419]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.39:667][419]MaterialEditorStats: Shader Count: 2
+[2022.11.04-19.00.39:667][419]MaterialEditorStats: Texture samplers: 4/16
+[2022.11.04-19.00.39:667][419]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.04-19.00.39:667][419]MaterialEditorStats: Shader Count: 2
+[2022.11.04-19.00.49:974][195]LogEditorViewport: Clicking Background
+[2022.11.04-19.00.54:851][511]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.04-19.01.00:800][850]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit_C
+[2022.11.04-19.01.00:801][850]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit_C
+[2022.11.04-19.01.00:803][850]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit as actor: MenuCubeQuit_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeQuit_C_4
+[2022.11.04-19.01.00:806][850]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit as actor: MenuCubeQuit_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeQuit_C_4
+[2022.11.04-19.01.03:298][ 67]LogEditorViewport: Clicking Background
+[2022.11.04-19.01.03:918][108]LogEditorViewport: Clicking Background
+[2022.11.04-19.01.09:981][512]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit_C
+[2022.11.04-19.01.09:981][512]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit_C
+[2022.11.04-19.01.09:983][512]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit as actor: MenuCubeQuit_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeQuit_C_5
+[2022.11.04-19.01.09:985][512]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit as actor: MenuCubeQuit_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeQuit_C_5
+[2022.11.04-19.01.10:957][621]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit_C
+[2022.11.04-19.01.10:957][621]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit_C
+[2022.11.04-19.01.10:960][621]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit as actor: MenuCubeQuit_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeQuit_C_6
+[2022.11.04-19.01.10:962][621]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeQuit.MenuCubeQuit as actor: MenuCubeQuit_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeQuit_C_6
+[2022.11.04-19.01.20:845][213]Cmd: MODE GRID=1
+[2022.11.04-19.01.27:798][625]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeStart.MenuCubeStart_C
+[2022.11.04-19.01.27:798][625]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeStart.MenuCubeStart_C
+[2022.11.04-19.01.27:800][625]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeStart.MenuCubeStart as actor: MenuCubeStart_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeStart_C_2
+[2022.11.04-19.01.27:802][625]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeStart.MenuCubeStart as actor: MenuCubeStart_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeStart_C_2
+[2022.11.04-19.01.29:293][742]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeStart.MenuCubeStart_C
+[2022.11.04-19.01.29:294][742]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TESTCHAR/Actors/MenuCubeStart.MenuCubeStart_C
+[2022.11.04-19.01.29:297][742]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeStart.MenuCubeStart as actor: MenuCubeStart_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeStart_C_3
+[2022.11.04-19.01.29:299][742]LogActorFactory: Actor Factory spawned Blueprint /Game/TESTCHAR/Actors/MenuCubeStart.MenuCubeStart as actor: MenuCubeStart_C /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.MenuCubeStart_C_3
+[2022.11.04-19.01.34:211][ 39]LogEditorViewport: Clicking Background
+[2022.11.04-19.01.36:616][186]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.04-19.01.38:092][290]LogEditorViewport: Clicking Background
+[2022.11.04-19.01.40:553][438]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.04-19.01.52:583][164]LogEditorViewport: Clicking Background
+[2022.11.04-19.02.24:608][140]LogEditorViewport: Clicking Background
+[2022.11.04-19.02.37:669][901]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.04-19.02.42:556][191]LogEditorViewport: Clicking Background
+[2022.11.04-19.02.44:853][325]LogEditorViewport: Clicking Background
+[2022.11.04-19.08.12:983][211]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2022.11.04-19.08.13:002][211]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TESTCHAR/MenuLevel/MainMenu_Auto7
+[2022.11.04-19.08.13:002][211]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/MainMenu_Auto7E0DADE2E43E95A9F55508BAA684EA70D.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/TESTCHAR/MenuLevel/MainMenu_Auto7.umap'
+[2022.11.04-19.08.13:199][211]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TESTCHAR/MenuLevel/MainMenu' took 0.366
+[2022.11.04-19.08.13:199][211]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.366
+[2022.11.04-19.16.17:653][180]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.11.04-19.16.19:462][180]LogSlate: Window 'Save Content' being destroyed
+[2022.11.04-19.16.19:671][180]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.11.04-19.16.19:680][180]LogSavePackage: Moving output files for package: /Game/TESTCHAR/MenuLevel/MainMenu
+[2022.11.04-19.16.19:681][180]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/MainMenuB1CA3E4B4835DFCB822B2F84DDDB8A84.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/MenuLevel/MainMenu.umap'
+[2022.11.04-19.16.19:696][180]LogFileHelpers: Saving map 'MainMenu' took 0.152
+[2022.11.04-19.16.19:719][180]AssetCheck: New page: Asset Save: MainMenu
+[2022.11.04-19.16.19:719][180]LogContentValidation: Display: Validating World /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu
+[2022.11.04-19.16.31:389][194]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2022.11.04-19.16.31:389][194]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2022.11.04-19.16.31:432][194]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.PlayerStart_0
+[2022.11.04-19.16.31:452][194]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.04-19.16.31:642][194]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.PlayerStart_0
+[2022.11.04-19.16.31:643][194]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.04-19.16.32:672][313]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2022.11.04-19.16.32:672][313]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2022.11.04-19.16.32:674][313]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.PlayerStart_1
+[2022.11.04-19.16.32:674][313]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.04-19.16.32:674][313]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu:PersistentLevel.PlayerStart_1
+[2022.11.04-19.16.32:675][313]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.04-19.16.34:478][423]LogEditorViewport: Clicking Background
+[2022.11.04-19.16.37:277][603]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.04-19.16.39:078][718]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.04-19.16.43:387][995]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.04-19.16.46:903][222]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 3
+[2022.11.04-19.16.49:797][409]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.04-19.16.51:521][516]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.04-19.16.53:456][639]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.04-19.16.58:721][977]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.04-19.16.59:365][ 17]LogEditorViewport: Clicking Background
+[2022.11.04-19.17.01:212][145]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2022.11.04-19.17.02:410][145]LogSlate: Window 'Save Content' being destroyed
+[2022.11.04-19.17.02:614][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.11.04-19.17.02:624][145]LogSavePackage: Moving output files for package: /Game/TESTCHAR/MenuLevel/MainMenu
+[2022.11.04-19.17.02:625][145]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/MainMenu7293BE50467A03D5506F258C3582ADB9.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/MenuLevel/MainMenu.umap'
+[2022.11.04-19.17.02:639][145]LogFileHelpers: Saving map 'MainMenu' took 0.145
+[2022.11.04-19.17.02:662][145]AssetCheck: New page: Asset Save: MainMenu
+[2022.11.04-19.17.02:663][145]LogContentValidation: Display: Validating World /Game/TESTCHAR/MenuLevel/MainMenu.MainMenu
+[2022.11.04-19.24.04:430][604]LogDerivedDataCache: C:/Users/niall/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.941 and deleted 0 file(s) with total size 0 MiB.
