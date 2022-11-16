@@ -1443,3 +1443,525 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.16-19.11.21:253][639]LogContentValidation: Display: Validating StaticMesh /Game/TESTCHAR/Props/Roverhead.Roverhead
 [2022.11.16-19.11.21:253][639]LogContentValidation: Display: Validating World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
 [2022.11.16-19.11.21:253][639]LogContentValidation: Display: Validating Blueprint /Game/TESTCHAR/Actors/SpaceFood.SpaceFood
+[2022.11.16-19.14.13:625][245]LogDerivedDataCache: C:/Users/niall/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.789 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.16-19.15.35:280][736]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TESTCHAR/Flight_Pawn.Flight_Pawn
+[2022.11.16-19.15.35:280][736]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.16-19.18.29:495][856]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TESTCHAR/JoyStick.JoyStick
+[2022.11.16-19.18.29:496][856]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.16-19.18.39:783][231]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.11.16-19.18.39:783][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.16-19.31.46:389][837]Cmd: MODE GRID=0
+[2022.11.16-19.31.46:820][846]Cmd: MODE GRID=1
+[2022.11.16-19.31.48:194][926]Cmd: MODE GRID=0
+[2022.11.16-19.45.00:588][460]LogViewport: Scene viewport resized to 375x460, mode Windowed.
+[2022.11.16-19.45.00:741][462]LogViewport: Scene viewport resized to 151x157, mode Windowed.
+[2022.11.16-19.45.01:210][480]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2022.11.16-19.45.03:474][579]LogViewport: Scene viewport resized to 1139x900, mode Windowed.
+[2022.11.16-19.45.03:616][581]LogViewport: Scene viewport resized to 467x294, mode Windowed.
+[2022.11.16-19.45.04:061][611]LogViewport: Scene viewport resized to 1141x877, mode Windowed.
+[2022.11.16-19.45.04:368][636]LogSlate: Window 'SpaceFood' being destroyed
+[2022.11.16-19.46.56:273][704]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.16-20.14.13:188][651]LogDerivedDataCache: C:/Users/niall/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.331 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.16-20.50.27:977][550]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\niall\OneDrive\Documents\maya\projects\default\scenes\Joystick.fbx)
+[2022.11.16-20.50.27:992][550]LogFbx: Loading FBX Scene from C:\Users\niall\OneDrive\Documents\maya\projects\default\scenes\Joystick.fbx
+[2022.11.16-20.50.28:004][550]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.16-20.50.33:411][550]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.11.16-20.50.33:474][550]LogTexture: Display: Building textures: /Game/TESTCHAR/Props/JoystickThrottletex.JoystickThrottletex (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.11.16-20.50.33:474][550]LogMaterial: Display: Missing cached shadermap for Controlmat in PCD3D_SM5, Default, SM5 (DDC key hash: CE05E2BEA436BC04DE5619136E9251FE499863C4), compiling. 
+[2022.11.16-20.50.33:484][550]LogFbx: Display: Triangulating static mesh pCylinder1
+[2022.11.16-20.50.33:552][550]LogStaticMesh: Display: Building static mesh Joystick...
+[2022.11.16-20.50.33:565][550]LogStaticMesh: Built static mesh [0.01s] /Game/TESTCHAR/Props/Joystick.Joystick
+[2022.11.16-20.50.36:899][695]LogShaderCompilers: Display: ================================================
+[2022.11.16-20.50.36:899][695]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.16-20.50.36:899][695]LogShaderCompilers: Display: Total job queries 211, among them cache hits 99 (46.92%)
+[2022.11.16-20.50.36:899][695]LogShaderCompilers: Display: Tracking 93 distinct input hashes that result in 47 distinct outputs (50.54%)
+[2022.11.16-20.50.36:899][695]LogShaderCompilers: Display: RAM used: 0.27 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.03%
+[2022.11.16-20.50.36:899][695]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.16-20.50.36:900][695]LogShaderCompilers: Display: Shaders Compiled: 67
+[2022.11.16-20.50.36:900][695]LogShaderCompilers: Display: Jobs assigned 94, completed 93 (98.94%)
+[2022.11.16-20.50.36:900][695]LogShaderCompilers: Display: Average time worker was idle: 1131.51 s
+[2022.11.16-20.50.36:900][695]LogShaderCompilers: Display: Time job spent in pending queue: average 2.32 s, longest 18.09 s
+[2022.11.16-20.50.36:900][695]LogShaderCompilers: Display: Job execution time: average 35.70 s, max 98.91 s
+[2022.11.16-20.50.36:900][695]LogShaderCompilers: Display: Job life time (pending + execution): average 38.04 s, max 98.94
+[2022.11.16-20.50.36:900][695]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 234.91 s
+[2022.11.16-20.50.36:900][695]LogShaderCompilers: Display: Jobs were issued in 61 batches (only local compilation was used), average 1.54 jobs/batch
+[2022.11.16-20.50.36:900][695]LogShaderCompilers: Display: Average processing rate: 0.40 jobs/sec
+[2022.11.16-20.50.36:900][695]LogShaderCompilers: Display: Effective parallelization: 2.75 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.11.16-20.50.36:900][695]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.16-20.50.36:900][695]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    1 times, average 14.37 sec, max 14.37 sec, min 14.37 sec)
+[2022.11.16-20.50.36:900][695]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyHQSkylight (compiled    1 times, average 14.36 sec, max 14.36 sec, min 14.36 sec)
+[2022.11.16-20.50.36:900][695]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    1 times, average 14.12 sec, max 14.12 sec, min 14.12 sec)
+[2022.11.16-20.50.36:900][695]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyLQ (compiled    1 times, average 13.15 sec, max 13.15 sec, min 13.15 sec)
+[2022.11.16-20.50.36:901][695]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    1 times, average 12.40 sec, max 12.40 sec, min 12.40 sec)
+[2022.11.16-20.50.36:901][695]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.16-20.50.36:901][695]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 14.09% of total time (compiled   10 times, average 9.10 sec, max 13.48 sec, min 6.80 sec)
+[2022.11.16-20.50.36:901][695]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.19% of total time (compiled    7 times, average 8.47 sec, max 13.47 sec, min 1.98 sec)
+[2022.11.16-20.50.36:901][695]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 8.80% of total time (compiled    5 times, average 11.36 sec, max 14.24 sec, min 9.61 sec)
+[2022.11.16-20.50.36:901][695]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 8.70% of total time (compiled    5 times, average 11.22 sec, max 14.70 sec, min 9.55 sec)
+[2022.11.16-20.50.36:901][695]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 8.43% of total time (compiled    5 times, average 10.88 sec, max 12.97 sec, min 9.83 sec)
+[2022.11.16-20.50.36:901][695]LogShaderCompilers: Display: ================================================
+[2022.11.16-20.50.39:464][795]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\niall\OneDrive\Documents\maya\projects\default\scenes\Throttle.fbx)
+[2022.11.16-20.50.39:479][795]LogFbx: Loading FBX Scene from C:\Users\niall\OneDrive\Documents\maya\projects\default\scenes\Throttle.fbx
+[2022.11.16-20.50.39:490][795]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.16-20.50.45:840][795]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.11.16-20.50.45:944][795]LogFbx: Display: Triangulating static mesh pCylinder4
+[2022.11.16-20.50.45:958][795]LogTexture: Display: Building textures: /Game/TESTCHAR/Props/JoystickThrottletex.JoystickThrottletex (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.11.16-20.50.45:958][795]LogStaticMesh: Display: Building static mesh Throttle...
+[2022.11.16-20.50.45:971][795]LogStaticMesh: Built static mesh [0.01s] /Game/TESTCHAR/Props/Throttle.Throttle
+[2022.11.16-20.50.54:247][189]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TESTCHAR/JoyStick.JoyStick
+[2022.11.16-20.50.54:248][189]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.16-20.50.57:819][358]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2022.11.16-20.52.14:208][987]LogEditorTransaction: Undo Set Scale
+[2022.11.16-20.52.14:529][987]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: 00B16B0F432447521F17B9E329AA3F4816769F1B), compiling. 
+[2022.11.16-20.52.14:580][987]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 3740EA55A4A1896213DCCC9D513CDA60BD0956C9), compiling. 
+[2022.11.16-20.52.14:614][987]LogEditorTransaction: Undo Set Scale
+[2022.11.16-20.52.14:957][987]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: 53B7CBD720F7D4B27BD06BD00C94931746A96E25), compiling. 
+[2022.11.16-20.52.15:008][987]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: E1292001B66829C75E0CA18A08FBB4BC50F4E86D), compiling. 
+[2022.11.16-20.52.15:017][987]LogEditorTransaction: Undo Set Scale
+[2022.11.16-20.52.15:356][987]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: 27C9AA2A25ADD488B195B1724EAAC5F61BB552F9), compiling. 
+[2022.11.16-20.52.15:401][987]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 007C04DF04218A857BD56149506261EE84915E2D), compiling. 
+[2022.11.16-20.52.15:412][987]LogEditorTransaction: Undo Edit Static Mesh
+[2022.11.16-20.52.15:746][987]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: BE0C0D6D4AC42AD034F83251BBDF3E9E58DF6B8A), compiling. 
+[2022.11.16-20.52.15:792][987]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: EC4FF8F76A1C5916919AEC7E94A7FF64A2E6197A), compiling. 
+[2022.11.16-20.52.15:801][987]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.16-20.52.16:155][987]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: D80681102EF52B8C8BB868710C3BF631BC830903), compiling. 
+[2022.11.16-20.52.16:202][987]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: CE73ADF2E655775EBFE294754BD76CD724245A6E), compiling. 
+[2022.11.16-20.52.17:512][987]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-20.52.17:512][987]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-20.52.17:512][987]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-20.52.17:512][987]MaterialEditorStats: Shader Count: 0
+[2022.11.16-20.52.17:512][987]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-20.52.17:512][987]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-20.52.17:512][987]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-20.52.17:512][987]MaterialEditorStats: Shader Count: 0
+[2022.11.16-20.52.17:740][989]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-20.52.17:740][989]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-20.52.17:740][989]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-20.52.17:740][989]MaterialEditorStats: Shader Count: 2
+[2022.11.16-20.52.17:740][989]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-20.52.17:740][989]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-20.52.17:740][989]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-20.52.17:740][989]MaterialEditorStats: Shader Count: 2
+[2022.11.16-20.52.47:362][136]LogUObjectHash: Compacting FUObjectHashTables data took   5.28ms
+[2022.11.16-20.52.47:427][136]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto5
+[2022.11.16-20.52.47:428][136]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/VRTemplateMap_Auto5D3E39B27494680FE1BAAE7A35CA065F7.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto5.umap'
+[2022.11.16-20.52.47:432][136]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.544
+[2022.11.16-20.52.47:432][136]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.544
+[2022.11.16-20.52.47:433][136]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TESTCHAR/Props/Joystick] ([1] browsable assets)...
+[2022.11.16-20.52.47:449][136]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TESTCHAR/Props/Joystick.Joystick]
+[2022.11.16-20.52.47:449][136]OBJ SavePackage: Finished generating thumbnails for package [/Game/TESTCHAR/Props/Joystick]
+[2022.11.16-20.52.47:449][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/Joystick" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/TESTCHAR/Props/Joystick_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2022.11.16-20.52.47:455][136]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TESTCHAR/Props/Joystick_Auto5
+[2022.11.16-20.52.47:455][136]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Joystick_Auto59654B41C479C006DEB3A93846D090C6F.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/TESTCHAR/Props/Joystick_Auto5.uasset'
+[2022.11.16-20.52.47:457][136]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TESTCHAR/Props/Throttle] ([1] browsable assets)...
+[2022.11.16-20.52.47:467][136]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TESTCHAR/Props/Throttle.Throttle]
+[2022.11.16-20.52.47:467][136]OBJ SavePackage: Finished generating thumbnails for package [/Game/TESTCHAR/Props/Throttle]
+[2022.11.16-20.52.47:467][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/Throttle" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/TESTCHAR/Props/Throttle_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2022.11.16-20.52.47:492][136]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TESTCHAR/Props/Throttle_Auto5
+[2022.11.16-20.52.47:492][136]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Throttle_Auto50817EC9046EC25861A2D60BD19852461.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/TESTCHAR/Props/Throttle_Auto5.uasset'
+[2022.11.16-20.52.47:493][136]LogFileHelpers: Auto-saving content packages took 0.061
+[2022.11.16-20.55.47:561][393]LogUObjectHash: Compacting FUObjectHashTables data took   5.21ms
+[2022.11.16-20.55.48:809][393]LogSlate: Window 'Delete Assets' being destroyed
+[2022.11.16-20.55.49:072][393]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2022.11.16-20.55.49:233][393]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2022.11.16-20.55.49:380][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2022.11.16-20.55.50:101][423]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2022.11.16-20.55.53:331][423]LogSlate: Window 'Delete Assets' being destroyed
+[2022.11.16-20.55.53:803][423]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/TESTCHAR/Props/Joystick.Joystick
+	Asset Type: StaticMesh
+[2022.11.16-20.55.55:111][423]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2022.11.16-20.55.55:261][423]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
+[2022.11.16-20.55.55:403][423]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2022.11.16-20.55.55:552][423]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2022.11.16-20.55.57:221][423]LogSlate: Window 'Save Content' being destroyed
+[2022.11.16-20.55.59:380][423]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.11.16-20.56.14:298][423]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.004015s (14.956463s overbudget)
+[2022.11.16-20.56.14:306][423]LogShaderCompilers: Display: ================================================
+[2022.11.16-20.56.14:306][423]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.16-20.56.14:306][423]LogShaderCompilers: Display: Total job queries 227, among them cache hits 103 (45.37%)
+[2022.11.16-20.56.14:307][423]LogShaderCompilers: Display: Tracking 106 distinct input hashes that result in 47 distinct outputs (44.34%)
+[2022.11.16-20.56.14:307][423]LogShaderCompilers: Display: RAM used: 0.27 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.03%
+[2022.11.16-20.56.14:307][423]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.16-20.56.14:307][423]LogShaderCompilers: Display: Shaders Compiled: 67
+[2022.11.16-20.56.14:307][423]LogShaderCompilers: Display: Jobs assigned 106, completed 106 (100.00%)
+[2022.11.16-20.56.14:307][423]LogShaderCompilers: Display: Average time worker was idle: 1125.84 s
+[2022.11.16-20.56.14:307][423]LogShaderCompilers: Display: Time job spent in pending queue: average 2.67 s, longest 18.09 s
+[2022.11.16-20.56.14:307][423]LogShaderCompilers: Display: Job execution time: average 32.05 s, max 98.91 s
+[2022.11.16-20.56.14:307][423]LogShaderCompilers: Display: Job life time (pending + execution): average 34.72 s, max 98.94
+[2022.11.16-20.56.14:307][423]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 262.59 s
+[2022.11.16-20.56.14:308][423]LogShaderCompilers: Display: Jobs were issued in 73 batches (only local compilation was used), average 1.45 jobs/batch
+[2022.11.16-20.56.14:308][423]LogShaderCompilers: Display: Average processing rate: 0.40 jobs/sec
+[2022.11.16-20.56.14:308][423]LogShaderCompilers: Display: Effective parallelization: 2.74 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.11.16-20.56.14:309][423]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.16-20.56.14:309][423]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    1 times, average 14.37 sec, max 14.37 sec, min 14.37 sec)
+[2022.11.16-20.56.14:310][423]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyHQSkylight (compiled    1 times, average 14.36 sec, max 14.36 sec, min 14.36 sec)
+[2022.11.16-20.56.14:310][423]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    1 times, average 14.12 sec, max 14.12 sec, min 14.12 sec)
+[2022.11.16-20.56.14:310][423]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyLQ (compiled    1 times, average 13.15 sec, max 13.15 sec, min 13.15 sec)
+[2022.11.16-20.56.14:310][423]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    1 times, average 12.40 sec, max 12.40 sec, min 12.40 sec)
+[2022.11.16-20.56.14:310][423]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.16-20.56.14:310][423]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 13.60% of total time (compiled   11 times, average 8.90 sec, max 13.48 sec, min 6.80 sec)
+[2022.11.16-20.56.14:310][423]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 9.22% of total time (compiled    6 times, average 11.06 sec, max 14.24 sec, min 9.53 sec)
+[2022.11.16-20.56.14:310][423]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 9.12% of total time (compiled    6 times, average 10.94 sec, max 14.70 sec, min 9.55 sec)
+[2022.11.16-20.56.14:310][423]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.11% of total time (compiled    8 times, average 8.20 sec, max 13.47 sec, min 1.98 sec)
+[2022.11.16-20.56.14:310][423]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 8.89% of total time (compiled    6 times, average 10.66 sec, max 12.97 sec, min 9.56 sec)
+[2022.11.16-20.56.14:310][423]LogShaderCompilers: Display: ================================================
+[2022.11.16-20.56.14:327][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/Controlmat" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/Controlmat.uasset" SILENT=true
+[2022.11.16-20.56.14:330][423]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Props/Controlmat
+[2022.11.16-20.56.14:330][423]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Controlmat53872FA34524135FA346A88274D83B9A.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/Controlmat.uasset'
+[2022.11.16-20.56.14:333][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/JoystickThrottletex" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/JoystickThrottletex.uasset" SILENT=true
+[2022.11.16-20.56.14:365][423]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Props/JoystickThrottletex
+[2022.11.16-20.56.14:366][423]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/JoystickThrottletexAE374DD441216C35DE306B8A1EE8B207.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/JoystickThrottletex.uasset'
+[2022.11.16-20.56.14:518][423]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.11.16-20.56.14:541][423]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2022.11.16-20.56.14:542][423]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/VRTemplateMap254AEE0F4E2D918C64C2568B9BAE02A6.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2022.11.16-20.56.14:556][423]LogFileHelpers: Saving map 'VRTemplateMap' took 0.190
+[2022.11.16-20.56.14:575][423]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.16-20.56.14:575][423]LogContentValidation: Display: Validating World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2022.11.16-20.56.14:575][423]LogContentValidation: Display: Validating Texture2D /Game/TESTCHAR/Props/JoystickThrottletex.JoystickThrottletex
+[2022.11.16-20.56.14:575][423]LogContentValidation: Display: Validating Material /Game/TESTCHAR/Props/Controlmat.Controlmat
+[2022.11.16-20.59.54:316][572]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\niall\OneDrive\Documents\maya\projects\default\scenes\Throttle.fbx)
+[2022.11.16-20.59.54:331][572]LogFbx: Loading FBX Scene from C:\Users\niall\OneDrive\Documents\maya\projects\default\scenes\Throttle.fbx
+[2022.11.16-20.59.54:342][572]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.16-20.59.58:012][572]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.11.16-20.59.58:086][572]LogTexture: Display: Building textures: /Game/TESTCHAR/Props/JoystickThrottletex.JoystickThrottletex (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.11.16-20.59.58:086][572]LogFbx: Display: Triangulating static mesh pCylinder4
+[2022.11.16-20.59.58:098][572]LogStaticMesh: Display: Building static mesh Throttle...
+[2022.11.16-20.59.58:110][572]LogStaticMesh: Built static mesh [0.01s] /Game/TESTCHAR/Props/Throttle.Throttle
+[2022.11.16-21.00.01:500][681]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\niall\OneDrive\Documents\maya\projects\default\scenes\Joystick.fbx)
+[2022.11.16-21.00.01:516][681]LogFbx: Loading FBX Scene from C:\Users\niall\OneDrive\Documents\maya\projects\default\scenes\Joystick.fbx
+[2022.11.16-21.00.01:527][681]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.16-21.00.02:930][681]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.11.16-21.00.02:987][681]LogTexture: Display: Building textures: /Game/TESTCHAR/Props/JoystickThrottletex.JoystickThrottletex (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.11.16-21.00.02:987][681]LogFbx: Display: Triangulating static mesh pCylinder1
+[2022.11.16-21.00.03:001][681]LogStaticMesh: Display: Building static mesh Joystick...
+[2022.11.16-21.00.03:015][681]LogStaticMesh: Built static mesh [0.01s] /Game/TESTCHAR/Props/Joystick.Joystick
+[2022.11.16-21.01.19:001][856]Cmd: TRANSACTION UNDO
+[2022.11.16-21.01.19:001][856]LogEditorTransaction: Undo Reset Scale
+[2022.11.16-21.01.19:352][856]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: 7C2E69F7FBC782D7E9DDD874B593D60DE1524FA0), compiling. 
+[2022.11.16-21.01.19:397][856]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 2091D230292F6433E99B6C5BF4CF33DF82BEBA5C), compiling. 
+[2022.11.16-21.01.19:436][856]Cmd: TRANSACTION UNDO
+[2022.11.16-21.01.19:436][856]LogEditorTransaction: Undo Set Scale
+[2022.11.16-21.01.19:742][856]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: 892B60559C73BA670629EA46C9A58645DC4C8D9E), compiling. 
+[2022.11.16-21.01.19:792][856]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 3680EBCB03CAAB1C39CE654A61BF21345AFB9497), compiling. 
+[2022.11.16-21.01.20:164][856]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.20:164][856]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.20:164][856]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.20:165][856]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.20:165][856]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.20:165][856]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.20:165][856]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.20:165][856]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.20:326][858]LogShaderCompilers: Display: ================================================
+[2022.11.16-21.01.20:326][858]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.16-21.01.20:326][858]LogShaderCompilers: Display: Total job queries 231, among them cache hits 107 (46.32%)
+[2022.11.16-21.01.20:326][858]LogShaderCompilers: Display: Tracking 106 distinct input hashes that result in 47 distinct outputs (44.34%)
+[2022.11.16-21.01.20:326][858]LogShaderCompilers: Display: RAM used: 0.27 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.03%
+[2022.11.16-21.01.20:326][858]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.16-21.01.20:326][858]LogShaderCompilers: Display: Shaders Compiled: 67
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display: Jobs assigned 106, completed 106 (100.00%)
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display: Average time worker was idle: 1125.84 s
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display: Time job spent in pending queue: average 2.67 s, longest 18.09 s
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display: Job execution time: average 32.05 s, max 98.91 s
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display: Job life time (pending + execution): average 34.72 s, max 98.94
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 262.59 s
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display: Jobs were issued in 73 batches (only local compilation was used), average 1.45 jobs/batch
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display: Average processing rate: 0.40 jobs/sec
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display: Effective parallelization: 2.74 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    1 times, average 14.37 sec, max 14.37 sec, min 14.37 sec)
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyHQSkylight (compiled    1 times, average 14.36 sec, max 14.36 sec, min 14.36 sec)
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    1 times, average 14.12 sec, max 14.12 sec, min 14.12 sec)
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyLQ (compiled    1 times, average 13.15 sec, max 13.15 sec, min 13.15 sec)
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    1 times, average 12.40 sec, max 12.40 sec, min 12.40 sec)
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 13.60% of total time (compiled   11 times, average 8.90 sec, max 13.48 sec, min 6.80 sec)
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 9.22% of total time (compiled    6 times, average 11.06 sec, max 14.24 sec, min 9.53 sec)
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 9.12% of total time (compiled    6 times, average 10.94 sec, max 14.70 sec, min 9.55 sec)
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.11% of total time (compiled    8 times, average 8.20 sec, max 13.47 sec, min 1.98 sec)
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 8.89% of total time (compiled    6 times, average 10.66 sec, max 12.97 sec, min 9.56 sec)
+[2022.11.16-21.01.20:327][858]LogShaderCompilers: Display: ================================================
+[2022.11.16-21.01.20:363][859]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.20:363][859]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.20:363][859]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.20:363][859]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.20:363][859]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.20:363][859]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.20:363][859]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.20:363][859]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.21:049][900]Cmd: TRANSACTION UNDO
+[2022.11.16-21.01.21:049][900]LogEditorTransaction: Undo Set Scale
+[2022.11.16-21.01.21:350][900]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: 00498B9DD10756786E5AF7ED7F7AD7EB0102E089), compiling. 
+[2022.11.16-21.01.21:394][900]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 74B3C0B27433D605FD9BA67C66B9224F109DCC4D), compiling. 
+[2022.11.16-21.01.21:402][900]Cmd: TRANSACTION UNDO
+[2022.11.16-21.01.21:402][900]LogEditorTransaction: Undo Set Scale
+[2022.11.16-21.01.21:709][900]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: F0E61A3F8571F4EFF8ED9637387FFE84CED010AA), compiling. 
+[2022.11.16-21.01.21:756][900]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 6527575F4838B18B6C94017B71C25FD4B28B6F73), compiling. 
+[2022.11.16-21.01.22:141][900]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.22:141][900]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.22:141][900]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.22:141][900]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.22:141][900]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.22:141][900]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.22:141][900]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.22:141][900]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.22:296][903]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.22:296][903]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.22:296][903]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.22:296][903]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.22:296][903]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.22:296][903]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.22:296][903]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.22:296][903]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.23:045][950]Cmd: TRANSACTION UNDO
+[2022.11.16-21.01.23:045][950]LogEditorTransaction: Undo Toggle Absolute Scale
+[2022.11.16-21.01.23:357][950]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: E356C12FF3583C932267B3DAE0A2AA53A930628F), compiling. 
+[2022.11.16-21.01.23:397][950]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 82A521D8297E859BF88AE3C74457689B102B5AFA), compiling. 
+[2022.11.16-21.01.23:572][950]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.23:572][950]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.23:572][950]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.23:572][950]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.23:573][950]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.23:573][950]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.23:573][950]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.23:573][950]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.23:709][953]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.23:710][953]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.23:710][953]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.23:710][953]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.23:710][953]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.23:710][953]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.23:710][953]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.23:710][953]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.24:946][ 32]Cmd: TRANSACTION UNDO
+[2022.11.16-21.01.24:946][ 32]LogEditorTransaction: Undo Set Scale
+[2022.11.16-21.01.25:261][ 32]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: 0BB0D5265F1A6B3A9EC040383D0464207300353A), compiling. 
+[2022.11.16-21.01.25:306][ 32]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: EC4B4013762D84AF7BF4ED8A3C71857027006A19), compiling. 
+[2022.11.16-21.01.25:481][ 32]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.25:481][ 32]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.25:481][ 32]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.25:481][ 32]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.25:481][ 32]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.25:481][ 32]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.25:481][ 32]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.25:481][ 32]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.25:611][ 35]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.25:611][ 35]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.25:611][ 35]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.25:611][ 35]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.25:611][ 35]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.25:611][ 35]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.25:611][ 35]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.25:611][ 35]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.25:870][ 49]Cmd: TRANSACTION UNDO
+[2022.11.16-21.01.25:870][ 49]LogEditorTransaction: Undo Set Scale
+[2022.11.16-21.01.26:176][ 49]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: 33475C57467F985B6D8D51A8B5E1E71BF4E8E5FB), compiling. 
+[2022.11.16-21.01.26:217][ 49]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 9BF2C58260653B354A0793B2AB4942288EB01935), compiling. 
+[2022.11.16-21.01.26:399][ 49]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.26:399][ 49]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.26:399][ 49]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.26:399][ 49]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.26:399][ 49]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.26:399][ 49]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.26:399][ 49]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.26:399][ 49]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.26:526][ 52]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.26:527][ 52]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.26:527][ 52]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.26:527][ 52]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.26:527][ 52]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.26:527][ 52]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.26:527][ 52]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.26:527][ 52]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.26:859][ 71]Cmd: TRANSACTION UNDO
+[2022.11.16-21.01.26:859][ 71]LogEditorTransaction: Undo Modify Component Scale
+[2022.11.16-21.01.27:208][ 71]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: 936B644FC544C6771100A5DFEE1FB6C707232F6B), compiling. 
+[2022.11.16-21.01.27:252][ 71]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 06509E210417026A7B55E4EA120141DA4EAA1D71), compiling. 
+[2022.11.16-21.01.27:430][ 71]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.27:430][ 71]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.27:430][ 71]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.27:431][ 71]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.27:431][ 71]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.27:431][ 71]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.27:431][ 71]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.27:431][ 71]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.27:565][ 74]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.27:565][ 74]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.27:566][ 74]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.27:566][ 74]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.27:566][ 74]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.27:566][ 74]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.27:566][ 74]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.27:566][ 74]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.28:269][118]Cmd: TRANSACTION UNDO
+[2022.11.16-21.01.28:269][118]LogEditorTransaction: Undo Set Scale
+[2022.11.16-21.01.28:590][118]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: DF766D2F3147957CED7C369774C0B1DD41F21AA9), compiling. 
+[2022.11.16-21.01.28:634][118]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: C2405F62118A932A25EB82D8D1B2FB3C1BEC3725), compiling. 
+[2022.11.16-21.01.28:808][118]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.28:808][118]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.28:808][118]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.28:808][118]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.28:808][118]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.28:808][118]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.28:808][118]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.28:808][118]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.28:934][121]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.28:934][121]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.28:934][121]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.28:934][121]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.28:934][121]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.28:934][121]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.28:934][121]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.28:934][121]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.29:269][140]Cmd: TRANSACTION UNDO
+[2022.11.16-21.01.29:269][140]LogEditorTransaction: Undo Set Scale
+[2022.11.16-21.01.29:582][140]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: 7DEFFA6D007EC4EB333103184723AD68D757A748), compiling. 
+[2022.11.16-21.01.29:623][140]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: D9DA085CBF71EE6D88E4683E158ABFFC16DE29EB), compiling. 
+[2022.11.16-21.01.29:802][140]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.29:803][140]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.29:803][140]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.29:803][140]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.29:803][140]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.29:803][140]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.29:803][140]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.29:803][140]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.29:931][143]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.29:931][143]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.29:931][143]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.29:931][143]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.29:931][143]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.29:931][143]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.29:931][143]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.29:931][143]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.30:254][162]Cmd: TRANSACTION UNDO
+[2022.11.16-21.01.30:254][162]LogEditorTransaction: Undo Set Scale
+[2022.11.16-21.01.30:562][162]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: 96CA63CC314DF1A2CA42F119747F0FDCA74F9CBD), compiling. 
+[2022.11.16-21.01.30:607][162]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 8C8913B3F05B69ED845DCC19357D4F9F83929892), compiling. 
+[2022.11.16-21.01.30:782][162]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.30:782][162]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.30:782][162]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.30:782][162]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.30:782][162]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.30:782][162]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.30:782][162]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.30:782][162]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.30:912][165]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.30:912][165]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.30:912][165]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.30:912][165]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.30:912][165]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.30:913][165]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.30:913][165]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.30:913][165]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.31:205][181]Cmd: TRANSACTION UNDO
+[2022.11.16-21.01.31:205][181]LogEditorTransaction: Undo Set Scale
+[2022.11.16-21.01.31:522][181]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: 021F223A318A0E61614DEF3B0A611F4D1DE1C9D3), compiling. 
+[2022.11.16-21.01.31:562][181]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 38991FD648E4A249CE7DDDC748DF0D9989EC916A), compiling. 
+[2022.11.16-21.01.31:745][181]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.31:746][181]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.31:746][181]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.31:746][181]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.31:746][181]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.31:746][181]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.31:746][181]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.31:746][181]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.31:882][184]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.31:882][184]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.31:882][184]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.31:882][184]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.31:882][184]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.31:883][184]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.31:883][184]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.31:883][184]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.32:579][229]Cmd: TRANSACTION UNDO
+[2022.11.16-21.01.32:579][229]LogEditorTransaction: Undo Edit Static Mesh
+[2022.11.16-21.01.32:879][229]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: FF8542AC86636E185240E17DF929ED2CDFDCE0C9), compiling. 
+[2022.11.16-21.01.32:931][229]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 6FB84C85AC3C2226D04348B00B9D23339BCBE5C4), compiling. 
+[2022.11.16-21.01.33:119][229]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.33:119][229]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.33:120][229]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.33:120][229]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.33:120][229]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-21.01.33:120][229]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.33:120][229]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.33:120][229]MaterialEditorStats: Shader Count: 0
+[2022.11.16-21.01.33:256][232]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.33:256][232]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.33:257][232]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.33:257][232]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.33:257][232]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-21.01.33:257][232]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-21.01.33:257][232]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-21.01.33:257][232]MaterialEditorStats: Shader Count: 2
+[2022.11.16-21.01.40:484][663]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Joystick.Joystick
+[2022.11.16-21.01.40:484][663]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Joystick.Joystick
+[2022.11.16-21.01.40:484][663]LogActorFactory: Actor Factory spawned StaticMesh /Game/TESTCHAR/Props/Joystick.Joystick as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_4
+[2022.11.16-21.01.41:670][747]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Joystick.Joystick
+[2022.11.16-21.01.41:670][747]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Joystick.Joystick
+[2022.11.16-21.01.41:671][747]LogActorFactory: Actor Factory spawned StaticMesh /Game/TESTCHAR/Props/Joystick.Joystick as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_6
+[2022.11.16-21.06.15:968][992]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.16-21.06.27:524][659]Cmd: DELETE
+[2022.11.16-21.06.27:524][659]Cmd: ACTOR DELETE
+[2022.11.16-21.06.27:527][659]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.16-21.06.27:683][659]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2022.11.16-21.06.27:693][659]LogEditorActor: Deleted 1 Actors (0.169 secs)
+[2022.11.16-21.06.53:789][122]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2022.11.16-21.06.53:815][122]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto6
+[2022.11.16-21.06.53:816][122]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/VRTemplateMap_Auto62741F10E48BC49B35E3053B564D8236F.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto6.umap'
+[2022.11.16-21.06.53:849][122]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.199
+[2022.11.16-21.06.53:849][122]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.199
+[2022.11.16-21.06.53:849][122]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/TESTCHAR/JoyStick] ([2] browsable assets)...
+[2022.11.16-21.06.53:865][122]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TESTCHAR/JoyStick.JoyStick]
+[2022.11.16-21.06.53:865][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/TESTCHAR/JoyStick]
+[2022.11.16-21.06.53:865][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/JoyStick" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/TESTCHAR/JoyStick_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2022.11.16-21.06.53:934][122]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TESTCHAR/JoyStick_Auto6
+[2022.11.16-21.06.53:934][122]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/JoyStick_Auto6C3E2CE4D404BA83E6E6785AA2102AE4F.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/TESTCHAR/JoyStick_Auto6.uasset'
+[2022.11.16-21.06.53:935][122]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TESTCHAR/Props/JoystickThrottletex] ([1] browsable assets)...
+[2022.11.16-21.06.53:937][122]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TESTCHAR/Props/JoystickThrottletex.JoystickThrottletex]
+[2022.11.16-21.06.53:937][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/TESTCHAR/Props/JoystickThrottletex]
+[2022.11.16-21.06.53:942][122]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TESTCHAR/Props/JoystickThrottletex_Auto6
+[2022.11.16-21.06.53:942][122]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/JoystickThrottletex_Auto663D00A274BCBCB3A6EA9AC9BFE8F9EA7.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/TESTCHAR/Props/JoystickThrottletex_Auto6.uasset'
+[2022.11.16-21.06.53:943][122]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TESTCHAR/Props/Throttle] ([1] browsable assets)...
+[2022.11.16-21.06.53:952][122]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TESTCHAR/Props/Throttle.Throttle]
+[2022.11.16-21.06.53:952][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/TESTCHAR/Props/Throttle]
+[2022.11.16-21.06.53:952][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/Throttle" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/TESTCHAR/Props/Throttle_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2022.11.16-21.06.53:959][122]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TESTCHAR/Props/Throttle_Auto6
+[2022.11.16-21.06.53:959][122]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Throttle_Auto67718963745156DAE5A1FF08975EC5A4E.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/TESTCHAR/Props/Throttle_Auto6.uasset'
+[2022.11.16-21.06.53:960][122]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TESTCHAR/Props/Joystick] ([1] browsable assets)...
+[2022.11.16-21.06.53:969][122]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TESTCHAR/Props/Joystick.Joystick]
+[2022.11.16-21.06.53:969][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/TESTCHAR/Props/Joystick]
+[2022.11.16-21.06.53:969][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/Joystick" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/TESTCHAR/Props/Joystick_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2022.11.16-21.06.53:995][122]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TESTCHAR/Props/Joystick_Auto6
+[2022.11.16-21.06.53:995][122]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Joystick_Auto6E44C1D05402C827CF0412F91CF36AA07.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/TESTCHAR/Props/Joystick_Auto6.uasset'
+[2022.11.16-21.06.53:996][122]LogFileHelpers: Auto-saving content packages took 0.147
+[2022.11.16-21.07.55:900][674]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TESTCHAR/Throttle.Throttle
+[2022.11.16-21.07.55:900][674]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.16-21.07.59:454][834]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2022.11.16-21.10.28:250][944]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2022.11.16-21.10.29:811][944]LogSlate: Window 'Save Content' being destroyed
+[2022.11.16-21.10.29:898][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/JoyStick" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/JoyStick.uasset" SILENT=true
+[2022.11.16-21.10.29:916][944]LogSavePackage: Moving output files for package: /Game/TESTCHAR/JoyStick
+[2022.11.16-21.10.29:917][944]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/JoyStick16C79DD14994C618663AB58AF8E452FD.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/JoyStick.uasset'
+[2022.11.16-21.10.29:919][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/Joystick" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/Joystick.uasset" SILENT=true
+[2022.11.16-21.10.29:923][944]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Props/Joystick
+[2022.11.16-21.10.29:924][944]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Joystick72585F704D7E43852AF937BC986A1FFA.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/Joystick.uasset'
+[2022.11.16-21.10.29:924][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/JoystickThrottletex" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/JoystickThrottletex.uasset" SILENT=true
+[2022.11.16-21.10.29:945][944]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Props/JoystickThrottletex
+[2022.11.16-21.10.29:947][944]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/JoystickThrottletex70C0722E4698189D6A17B5BD6E7BE960.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/JoystickThrottletex.uasset'
+[2022.11.16-21.10.29:948][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/Throttle" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/Throttle.uasset" SILENT=true
+[2022.11.16-21.10.29:953][944]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Props/Throttle
+[2022.11.16-21.10.29:953][944]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Throttle6DC7603B4C17B1D59F6C8B9FA03ABE12.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/Throttle.uasset'
+[2022.11.16-21.10.29:965][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Throttle" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Throttle.uasset" SILENT=true
+[2022.11.16-21.10.29:978][944]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Throttle
+[2022.11.16-21.10.29:979][944]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Throttle811DDB1D4ED7A71E1EB2B28E6F8EFF29.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Throttle.uasset'
+[2022.11.16-21.10.30:145][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2022.11.16-21.10.30:167][944]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2022.11.16-21.10.30:168][944]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/VRTemplateMap272EF3044439A3F64AEE2CA00D53CD0D.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2022.11.16-21.10.30:184][944]LogFileHelpers: Saving map 'VRTemplateMap' took 0.203
+[2022.11.16-21.10.30:217][944]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.16-21.10.30:217][944]LogContentValidation: Display: Validating Blueprint /Game/TESTCHAR/JoyStick.JoyStick
+[2022.11.16-21.10.30:217][944]LogContentValidation: Display: Validating Blueprint /Game/TESTCHAR/Throttle.Throttle
+[2022.11.16-21.10.30:217][944]LogContentValidation: Display: Validating World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2022.11.16-21.10.30:217][944]LogContentValidation: Display: Validating Texture2D /Game/TESTCHAR/Props/JoystickThrottletex.JoystickThrottletex
+[2022.11.16-21.10.30:217][944]LogContentValidation: Display: Validating StaticMesh /Game/TESTCHAR/Props/Joystick.Joystick
+[2022.11.16-21.10.30:217][944]LogContentValidation: Display: Validating StaticMesh /Game/TESTCHAR/Props/Throttle.Throttle
