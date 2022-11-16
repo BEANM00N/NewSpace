@@ -1189,3 +1189,257 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.16-15.43.13:454][ 64]LogFileHelpers: Saving map 'VRTemplateMap' took 0.146
 [2022.11.16-15.43.13:480][ 64]AssetCheck: New page: Asset Save: VRTemplateMap
 [2022.11.16-15.43.13:480][ 64]LogContentValidation: Display: Validating World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2022.11.16-15.48.16:619][834]LogViewport: Scene viewport resized to 481x174, mode Windowed.
+[2022.11.16-15.52.47:537][260]LogViewport: Scene viewport resized to 1141x877, mode Windowed.
+[2022.11.16-16.14.13:393][592]LogDerivedDataCache: C:/Users/niall/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.339 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.16-17.14.13:822][331]LogDerivedDataCache: C:/Users/niall/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.725 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.16-18.05.43:729][551]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Digital Audio (S/PDIF) (High Definition Audio Device), InstanceID=1
+[2022.11.16-18.05.43:730][551]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=24440
+[2022.11.16-18.05.44:052][551]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{c7e6fea9-12db-4a1e-9d4d-a12a508d91ad}, Name=Digital Audio (S/PDIF) (High Definition Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=132.48
+[2022.11.16-18.05.44:052][551]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.11.16-18.05.44:070][552]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.11.16-18.14.13:414][ 68]LogDerivedDataCache: C:/Users/niall/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.307 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.16-18.58.54:151][ 48]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (High Definition Audio Device), InstanceID=1
+[2022.11.16-18.58.54:152][ 48]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=24440
+[2022.11.16-18.58.54:475][ 48]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{b7197795-e6fa-45dd-b9f9-3c405336c3cf}, Name=Speakers (High Definition Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=202.38
+[2022.11.16-18.58.54:475][ 48]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.11.16-18.58.54:494][ 49]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.11.16-19.06.08:091][660]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\niall\OneDrive\Documents\maya\projects\default\scenes\Roverhead.fbx)
+[2022.11.16-19.06.08:109][660]LogFbx: Loading FBX Scene from C:\Users\niall\OneDrive\Documents\maya\projects\default\scenes\Roverhead.fbx
+[2022.11.16-19.06.08:131][660]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.16-19.06.13:236][660]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.11.16-19.06.13:304][660]LogTexture: Display: Building textures: /Game/TESTCHAR/Props/RoverUV.RoverUV (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.11.16-19.06.13:304][660]LogMaterial: Display: Missing cached shadermap for Rovermat in PCD3D_SM5, Default, SM5 (DDC key hash: 4E1D6682A45BD7BBBD76CE3E0BCFF4FCCE7113AA), compiling. 
+[2022.11.16-19.06.13:332][660]LogTexture: Display: Building textures: /Game/TESTCHAR/Props/RoverUV_ncl1_1.RoverUV_ncl1_1 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.11.16-19.06.13:332][660]LogMaterial: Display: Missing cached shadermap for lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 7E1BA6F0BC864393C9429A764850C37A853DB043), compiling. 
+[2022.11.16-19.06.13:340][660]LogFbx: Display: Triangulating static mesh pCube10
+[2022.11.16-19.06.13:379][660]LogStaticMesh: Display: Building static mesh Roverhead...
+[2022.11.16-19.06.13:408][660]LogStaticMesh: Built static mesh [0.03s] /Game/TESTCHAR/Props/Roverhead.Roverhead
+[2022.11.16-19.06.13:433][660]LogStaticMesh: Warning: Roverhead has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.11.16-19.06.13:433][660]LogStaticMesh: Warning: Roverhead has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.11.16-19.06.13:480][660]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'RoverUV' was renamed 'RoverUV_ncl1_1' 
+[2022.11.16-19.06.13:480][660]FBXImport: Warning: Roverhead has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.11.16-19.06.13:480][660]FBXImport: Warning: Roverhead has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.11.16-19.06.15:307][723]LogSlate: Window 'Message Log' being destroyed
+[2022.11.16-19.06.15:327][723]LogSlate: Window 'Message Log' being destroyed
+[2022.11.16-19.06.18:614][812]LogShaderCompilers: Display: ================================================
+[2022.11.16-19.06.18:614][812]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.16-19.06.18:614][812]LogShaderCompilers: Display: Total job queries 98, among them cache hits 62 (63.27%)
+[2022.11.16-19.06.18:614][812]LogShaderCompilers: Display: Tracking 27 distinct input hashes that result in 20 distinct outputs (74.07%)
+[2022.11.16-19.06.18:614][812]LogShaderCompilers: Display: RAM used: 0.11 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.11.16-19.06.18:614][812]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.16-19.06.18:614][812]LogShaderCompilers: Display: Shaders Compiled: 18
+[2022.11.16-19.06.18:614][812]LogShaderCompilers: Display: Jobs assigned 29, completed 27 (93.10%)
+[2022.11.16-19.06.18:614][812]LogShaderCompilers: Display: Average time worker was idle: 2075.53 s
+[2022.11.16-19.06.18:615][812]LogShaderCompilers: Display: Time job spent in pending queue: average 1.66 s, longest 11.11 s
+[2022.11.16-19.06.18:615][812]LogShaderCompilers: Display: Job execution time: average 5.77 s, max 11.03 s
+[2022.11.16-19.06.18:615][812]LogShaderCompilers: Display: Job life time (pending + execution): average 7.55 s, max 18.20
+[2022.11.16-19.06.18:615][812]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 80.67 s
+[2022.11.16-19.06.18:615][812]LogShaderCompilers: Display: Jobs were issued in 29 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.11.16-19.06.18:615][812]LogShaderCompilers: Display: Average processing rate: 0.33 jobs/sec
+[2022.11.16-19.06.18:615][812]LogShaderCompilers: Display: Effective parallelization: 1.71 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.11.16-19.06.18:615][812]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.16-19.06.18:615][812]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 10.50 sec, max 10.50 sec, min 10.50 sec)
+[2022.11.16-19.06.18:615][812]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 10.50 sec, max 10.50 sec, min 10.50 sec)
+[2022.11.16-19.06.18:615][812]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 10.15 sec, max 10.15 sec, min 10.15 sec)
+[2022.11.16-19.06.18:615][812]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 7.83 sec, max 7.83 sec, min 7.83 sec)
+[2022.11.16-19.06.18:615][812]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    5 times, average 7.33 sec, max 7.57 sec, min 6.80 sec)
+[2022.11.16-19.06.18:615][812]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.16-19.06.18:615][812]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 26.54% of total time (compiled    5 times, average 7.33 sec, max 7.57 sec, min 6.80 sec)
+[2022.11.16-19.06.18:615][812]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.30% of total time (compiled    8 times, average 2.64 sec, max 3.81 sec, min 1.98 sec)
+[2022.11.16-19.06.18:616][812]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.53% of total time (compiled    3 times, average 5.30 sec, max 7.38 sec, min 1.98 sec)
+[2022.11.16-19.06.18:616][812]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 7.61% of total time (compiled    1 times, average 10.50 sec, max 10.50 sec, min 10.50 sec)
+[2022.11.16-19.06.18:616][812]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 7.61% of total time (compiled    1 times, average 10.50 sec, max 10.50 sec, min 10.50 sec)
+[2022.11.16-19.06.18:616][812]LogShaderCompilers: Display: ================================================
+[2022.11.16-19.06.21:216][906]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/TESTCHAR/Props/RoverUV.RoverUV
+[2022.11.16-19.06.21:415][906]LogTextureEditor: Warning: No compression block size found in settings - using 256KB
+[2022.11.16-19.06.23:029][906]LogViewport: Scene viewport resized to 1424x898, mode Windowed.
+[2022.11.16-19.06.53:120][235]Cmd: TRANSACTION UNDO
+[2022.11.16-19.06.53:120][235]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.16-19.06.53:338][235]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: CCA1C31F0970305D64D9B5E290BEE16FF51953FD), compiling. 
+[2022.11.16-19.06.53:466][235]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-19.06.53:467][235]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-19.06.53:467][235]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-19.06.53:467][235]MaterialEditorStats: Shader Count: 0
+[2022.11.16-19.06.53:706][238]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-19.06.53:706][238]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-19.06.53:706][238]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-19.06.53:706][238]MaterialEditorStats: Shader Count: 2
+[2022.11.16-19.07.30:318][831]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2022.11.16-19.07.30:321][831]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.410
+[2022.11.16-19.07.30:323][831]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TESTCHAR/Props/Roverhead] ([1] browsable assets)...
+[2022.11.16-19.07.30:338][831]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TESTCHAR/Props/Roverhead.Roverhead]
+[2022.11.16-19.07.30:338][831]OBJ SavePackage: Finished generating thumbnails for package [/Game/TESTCHAR/Props/Roverhead]
+[2022.11.16-19.07.30:346][831]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TESTCHAR/Props/Roverhead_Auto4
+[2022.11.16-19.07.30:346][831]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Roverhead_Auto4201B5EBE454B1009F92E678D4EE4222B.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/TESTCHAR/Props/Roverhead_Auto4.uasset'
+[2022.11.16-19.07.30:347][831]LogFileHelpers: Auto-saving content packages took 0.025
+[2022.11.16-19.07.39:641][986]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/TESTCHAR/Props/Roverhead.Roverhead
+[2022.11.16-19.07.39:652][986]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.16-19.07.40:339][986]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2022.11.16-19.07.54:043][613]LogSlate: Took 0.000420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.16-19.07.55:559][662]LogMaterial: Display: Missing cached shadermap for BaseMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 9A159C65A122240ABB23AE0ADCDE46711745750F), compiling. 
+[2022.11.16-19.08.08:644][151]LogEditorTransaction: Undo StaticMesh: Material changed
+[2022.11.16-19.08.09:113][151]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: C1C30F6125509EDB7E6D772DF3BFD1708429F637), compiling. 
+[2022.11.16-19.08.09:374][151]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-19.08.09:374][151]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-19.08.09:374][151]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-19.08.09:374][151]MaterialEditorStats: Shader Count: 0
+[2022.11.16-19.08.09:602][153]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.16-19.08.10:069][153]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: 508DD8FF1AB32FC18D78D2C24A00458D5DD1AE70), compiling. 
+[2022.11.16-19.08.10:647][155]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-19.08.10:647][155]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-19.08.10:647][155]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-19.08.10:647][155]MaterialEditorStats: Shader Count: 2
+[2022.11.16-19.08.18:877][422]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/TESTCHAR/Props/lambert4.lambert4
+[2022.11.16-19.08.18:881][422]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: C9663CEEF5FD412B2356FC4C0C45A057D28B1D88), compiling. 
+[2022.11.16-19.08.18:920][422]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.16-19.08.19:088][422]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 3F1832F29A4BFF20CEDF878998A9C7A6E54F8552), compiling. 
+[2022.11.16-19.08.19:097][422]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: E88D9A97427724923430D52459B4C712541A09A5), compiling. 
+[2022.11.16-19.08.19:103][422]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 1FAD25C0D487DED9F19877FE3A6024ABF3E6FEE8), compiling. 
+[2022.11.16-19.08.19:174][422]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-19.08.19:174][422]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-19.08.19:174][422]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-19.08.19:174][422]MaterialEditorStats: Shader Count: 0
+[2022.11.16-19.08.19:191][422]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2022.11.16-19.08.19:431][424]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-19.08.19:431][424]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-19.08.19:431][424]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-19.08.19:431][424]MaterialEditorStats: Shader Count: 2
+[2022.11.16-19.08.26:422][647]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: C6707C099FA4ACA7B3F45589CBA6A82367E430FB), compiling. 
+[2022.11.16-19.08.26:479][649]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-19.08.26:479][649]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.11.16-19.08.26:479][649]MaterialEditorStats: Shader Count: 0
+[2022.11.16-19.08.29:141][758]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 1437AA8BE2F815FAC5F2D9F917B5B4493BCB56FF), compiling. 
+[2022.11.16-19.08.29:147][758]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 124E4E37E5947EF3603B18BE58D634AB934AACB7), compiling. 
+[2022.11.16-19.08.29:159][758]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-19.08.29:159][758]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-19.08.29:159][758]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-19.08.29:160][758]MaterialEditorStats: Shader Count: 0
+[2022.11.16-19.08.29:252][761]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-19.08.29:252][761]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-19.08.29:253][761]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-19.08.29:253][761]MaterialEditorStats: Shader Count: 2
+[2022.11.16-19.08.33:777][934]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 0CBF22F70E2CF17D5F11F02500923D9B42D63616), compiling. 
+[2022.11.16-19.08.33:787][934]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 221657BCE52B08BDE016B7CAD0EC11E69294D141), compiling. 
+[2022.11.16-19.08.33:803][934]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-19.08.33:803][934]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-19.08.33:803][934]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-19.08.33:803][934]MaterialEditorStats: Shader Count: 0
+[2022.11.16-19.08.41:845][220]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: B0C561DE612C123E5BC16BF773893E1226266CD0), compiling. 
+[2022.11.16-19.08.41:858][220]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 0E10E128507CDA6768E4014E37F58819613486AD), compiling. 
+[2022.11.16-19.08.55:950][714]LogShaderCompilers: Display: Worker (1/5) finished batch of 10 jobs in 60.181s, TBasePassPSTLightMapPolicyHQSkylight [WorkerTime=14.363s], TBasePassPSTLightMapPolicyLQ [WorkerTime=13.149s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight [WorkerTime=11.980s], TBasePassVSTDistanceFieldShadowsAndLightMapPolicyHQ [WorkerTime=3.954s], TBasePassVSFCachedVolumeIndirectLightingPolicy [WorkerTime=3.361s], TBasePassVSFNoLightMapPolicy [WorkerTime=3.027s], TBasePassVSTLightMapPolicyLQ [WorkerTime=2.838s], TBasePassVSFCachedPointIndirectLightingPolicy [WorkerTime=2.665s], FDebugViewModeVS [WorkerTime=2.631s], FDebugViewModePS [WorkerTime=2.067s]
+[2022.11.16-19.09.00:025][850]MaterialEditorStats: Texture samplers: 2/16
+[2022.11.16-19.09.00:025][850]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-19.09.00:026][850]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-19.09.00:026][850]MaterialEditorStats: Shader Count: 1
+[2022.11.16-19.09.08:001][ 97]LogShaderCompilers: Display: Worker (4/5) finished batch of 7 jobs in 72.234s, TBasePassPSTLightMapPolicyHQ [WorkerTime=14.371s], TBasePassPSFCachedVolumeIndirectLightingPolicy [WorkerTime=13.833s], TBasePassPSFCachedPointIndirectLightingPolicySkylight [WorkerTime=12.973s], TBasePassPSFCachedPointIndirectLightingPolicy [WorkerTime=12.936s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=11.624s], TBasePassVSFCachedVolumeIndirectLightingPolicy [WorkerTime=3.528s], FDebugViewModeVS [WorkerTime=2.451s]
+[2022.11.16-19.09.13:373][268]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-19.09.13:373][268]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-19.09.13:373][268]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-19.09.13:373][268]MaterialEditorStats: Shader Count: 2
+[2022.11.16-19.09.22:745][566]LogShaderCompilers: Display: Worker (2/5) finished batch of 10 jobs in 86.986s, TBasePassPSFCachedVolumeIndirectLightingPolicy [WorkerTime=14.349s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight [WorkerTime=14.242s], TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight [WorkerTime=14.118s], TBasePassPSTLightMapPolicyLQSkylight [WorkerTime=12.400s], TBasePassPSFNoLightMapPolicy [WorkerTime=11.491s], TBasePassPSFNoLightMapPolicySkylight [WorkerTime=9.214s], TBasePassVSFCachedPointIndirectLightingPolicy [WorkerTime=3.136s], TBasePassVSTLightMapPolicyHQ [WorkerTime=3.077s], TBasePassVSFNoLightMapPolicy [WorkerTime=2.960s], FDebugViewModePS [WorkerTime=1.840s]
+[2022.11.16-19.09.22:749][566]LogShaderCompilers: Display: ================================================
+[2022.11.16-19.09.22:749][566]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.16-19.09.22:749][566]LogShaderCompilers: Display: Total job queries 183, among them cache hits 95 (51.91%)
+[2022.11.16-19.09.22:749][566]LogShaderCompilers: Display: Tracking 60 distinct input hashes that result in 38 distinct outputs (63.33%)
+[2022.11.16-19.09.22:749][566]LogShaderCompilers: Display: RAM used: 0.21 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.03%
+[2022.11.16-19.09.22:749][566]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.16-19.09.22:749][566]LogShaderCompilers: Display: Shaders Compiled: 65
+[2022.11.16-19.09.22:749][566]LogShaderCompilers: Display: Jobs assigned 70, completed 60 (85.71%)
+[2022.11.16-19.09.22:749][566]LogShaderCompilers: Display: Average time worker was idle: 1583.23 s
+[2022.11.16-19.09.22:749][566]LogShaderCompilers: Display: Time job spent in pending queue: average 1.17 s, longest 18.09 s
+[2022.11.16-19.09.22:749][566]LogShaderCompilers: Display: Job execution time: average 36.50 s, max 86.99 s
+[2022.11.16-19.09.22:749][566]LogShaderCompilers: Display: Job life time (pending + execution): average 37.86 s, max 87.02
+[2022.11.16-19.09.22:750][566]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 182.78 s
+[2022.11.16-19.09.22:750][566]LogShaderCompilers: Display: Jobs were issued in 37 batches (only local compilation was used), average 1.89 jobs/batch
+[2022.11.16-19.09.22:750][566]LogShaderCompilers: Display: Average processing rate: 0.33 jobs/sec
+[2022.11.16-19.09.22:750][566]LogShaderCompilers: Display: Effective parallelization: 2.25 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.11.16-19.09.22:750][566]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.16-19.09.22:750][566]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    1 times, average 14.37 sec, max 14.37 sec, min 14.37 sec)
+[2022.11.16-19.09.22:750][566]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyHQSkylight (compiled    1 times, average 14.36 sec, max 14.36 sec, min 14.36 sec)
+[2022.11.16-19.09.22:750][566]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    1 times, average 14.12 sec, max 14.12 sec, min 14.12 sec)
+[2022.11.16-19.09.22:750][566]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyLQ (compiled    1 times, average 13.15 sec, max 13.15 sec, min 13.15 sec)
+[2022.11.16-19.09.22:750][566]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    1 times, average 12.40 sec, max 12.40 sec, min 12.40 sec)
+[2022.11.16-19.09.22:750][566]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.16-19.09.22:750][566]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 18.87% of total time (compiled    9 times, average 8.61 sec, max 13.11 sec, min 6.80 sec)
+[2022.11.16-19.09.22:750][566]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.17% of total time (compiled    6 times, average 7.64 sec, max 11.49 sec, min 1.98 sec)
+[2022.11.16-19.09.22:750][566]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 8.94% of total time (compiled    3 times, average 12.24 sec, max 14.24 sec, min 10.50 sec)
+[2022.11.16-19.09.22:750][566]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 8.56% of total time (compiled    3 times, average 11.72 sec, max 14.35 sec, min 6.97 sec)
+[2022.11.16-19.09.22:751][566]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.56% of total time (compiled   11 times, average 2.82 sec, max 3.96 sec, min 1.98 sec)
+[2022.11.16-19.09.22:751][566]LogShaderCompilers: Display: ================================================
+[2022.11.16-19.09.32:767][914]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2022.11.16-19.09.34:304][965]LogViewport: Scene viewport resized to 1139x898, mode Windowed.
+[2022.11.16-19.09.34:454][967]LogViewport: Scene viewport resized to 467x292, mode Windowed.
+[2022.11.16-19.09.34:660][976]LogShaderCompilers: Display: Worker (3/5) finished batch of 10 jobs in 98.906s, TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=14.698s], TBasePassPSFNoLightMapPolicySkylight [WorkerTime=13.480s], TBasePassPSFNoLightMapPolicy [WorkerTime=13.470s], TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ [WorkerTime=12.249s], TBasePassPSFCachedPointIndirectLightingPolicySkylight [WorkerTime=10.708s], TBasePassPSFCachedVolumeIndirectLightingPolicySkylight [WorkerTime=10.565s], TBasePassPSFCachedPointIndirectLightingPolicy [WorkerTime=7.997s], TBasePassPSFCachedVolumeIndirectLightingPolicySkylight [WorkerTime=7.951s], TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=4.008s], TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=3.153s]
+[2022.11.16-19.09.34:716][977]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2022.11.16-19.09.34:920][978]LogViewport: Scene viewport resized to 1139x898, mode Windowed.
+[2022.11.16-19.09.35:065][980]LogViewport: Scene viewport resized to 467x292, mode Windowed.
+[2022.11.16-19.09.35:214][981]LogViewport: Scene viewport resized to 469x303, mode Windowed.
+[2022.11.16-19.09.36:821][ 43]LogViewport: Scene viewport resized to 152x163, mode Windowed.
+[2022.11.16-19.09.39:504][105]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2022.11.16-19.09.40:770][147]LogViewport: Scene viewport resized to 467x326, mode Windowed.
+[2022.11.16-19.09.41:187][168]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2022.11.16-19.09.41:641][195]LogSlate: Window 'SpaceFood' being destroyed
+[2022.11.16-19.10.00:393][987]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.16-19.10.20:353][762]Cmd: TRANSACTION UNDO
+[2022.11.16-19.10.20:353][762]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.16-19.10.20:695][762]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: C578962C6F7E5BC4CD687686D3563A68FEF05783), compiling. 
+[2022.11.16-19.10.20:737][762]LogMaterial: Display: Missing cached shadermap for Preview:lambert4 in PCD3D_SM5, Default, SM5 (DDC key hash: 1213457756000975161B063D5920FD52078A19DD), compiling. 
+[2022.11.16-19.10.20:907][762]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-19.10.20:907][762]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-19.10.20:907][762]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-19.10.20:907][762]MaterialEditorStats: Shader Count: 0
+[2022.11.16-19.10.20:907][762]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.16-19.10.20:907][762]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-19.10.20:907][762]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-19.10.20:907][762]MaterialEditorStats: Shader Count: 0
+[2022.11.16-19.10.21:104][765]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-19.10.21:104][765]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-19.10.21:104][765]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-19.10.21:104][765]MaterialEditorStats: Shader Count: 2
+[2022.11.16-19.10.21:104][765]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.16-19.10.21:104][765]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.16-19.10.21:105][765]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.16-19.10.21:105][765]MaterialEditorStats: Shader Count: 2
+[2022.11.16-19.10.22:704][822]Cmd: DELETE
+[2022.11.16-19.10.22:704][822]Cmd: ACTOR DELETE
+[2022.11.16-19.10.22:708][822]LogEditorActor: Deleted Actor: SpaceFood_C
+[2022.11.16-19.10.22:984][822]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2022.11.16-19.10.22:989][822]LogEditorActor: Deleted 1 Actors (0.284 secs)
+[2022.11.16-19.10.23:008][822]LogViewport: Scene viewport resized to 1141x877, mode Windowed.
+[2022.11.16-19.10.42:313][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.11.16-19.10.43:607][639]LogSlate: Window 'Save Content' being destroyed
+[2022.11.16-19.10.45:780][639]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.11.16-19.11.02:966][639]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.001015s (17.228123s overbudget)
+[2022.11.16-19.11.02:990][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/lambert4" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/lambert4.uasset" SILENT=true
+[2022.11.16-19.11.02:993][639]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Props/lambert4
+[2022.11.16-19.11.02:993][639]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/lambert4CD4ACB2F43EF9766AC547F93BBB75DF6.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/lambert4.uasset'
+[2022.11.16-19.11.03:008][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/Roverhead" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/Roverhead.uasset" SILENT=true
+[2022.11.16-19.11.03:016][639]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Props/Roverhead
+[2022.11.16-19.11.03:016][639]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Roverhead62E279C24EA4D825E0AAE58A5983E39A.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/Roverhead.uasset'
+[2022.11.16-19.11.05:204][639]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.11.16-19.11.20:847][639]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.002027s (15.801166s overbudget)
+[2022.11.16-19.11.20:870][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/Rovermat" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/Rovermat.uasset" SILENT=true
+[2022.11.16-19.11.20:872][639]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Props/Rovermat
+[2022.11.16-19.11.20:872][639]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Rovermat33A7F12D4CF3B7D30BCD238D96E672AF.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/Rovermat.uasset'
+[2022.11.16-19.11.20:876][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/RoverUV" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/RoverUV.uasset" SILENT=true
+[2022.11.16-19.11.20:917][639]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Props/RoverUV
+[2022.11.16-19.11.20:917][639]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/RoverUV8E05A0714B93445E1165C59EA623F6E0.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/RoverUV.uasset'
+[2022.11.16-19.11.20:920][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/RoverUV_ncl1_1" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/RoverUV_ncl1_1.uasset" SILENT=true
+[2022.11.16-19.11.20:959][639]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Props/RoverUV_ncl1_1
+[2022.11.16-19.11.20:959][639]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/RoverUV_ncl1_1686D275D415583F2818B65A03823870F.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/RoverUV_ncl1_1.uasset'
+[2022.11.16-19.11.20:975][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Actors/SpaceFood" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Actors/SpaceFood.uasset" SILENT=true
+[2022.11.16-19.11.20:983][639]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Actors/SpaceFood
+[2022.11.16-19.11.20:984][639]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/SpaceFood1721D59C4D367F300C9512B76B6FA022.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Actors/SpaceFood.uasset'
+[2022.11.16-19.11.21:156][639]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2022.11.16-19.11.21:195][639]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2022.11.16-19.11.21:196][639]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/VRTemplateMapB4E392844EB35AC1748DBA8EB73A772C.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2022.11.16-19.11.21:223][639]LogFileHelpers: Saving map 'VRTemplateMap' took 0.236
+[2022.11.16-19.11.21:252][639]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.16-19.11.21:253][639]LogContentValidation: Display: Validating Texture2D /Game/TESTCHAR/Props/RoverUV_ncl1_1.RoverUV_ncl1_1
+[2022.11.16-19.11.21:253][639]LogContentValidation: Display: Validating Material /Game/TESTCHAR/Props/lambert4.lambert4
+[2022.11.16-19.11.21:253][639]LogContentValidation: Display: Validating Texture2D /Game/TESTCHAR/Props/RoverUV.RoverUV
+[2022.11.16-19.11.21:253][639]LogContentValidation: Display: Validating Material /Game/TESTCHAR/Props/Rovermat.Rovermat
+[2022.11.16-19.11.21:253][639]LogContentValidation: Display: Validating StaticMesh /Game/TESTCHAR/Props/Roverhead.Roverhead
+[2022.11.16-19.11.21:253][639]LogContentValidation: Display: Validating World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2022.11.16-19.11.21:253][639]LogContentValidation: Display: Validating Blueprint /Game/TESTCHAR/Actors/SpaceFood.SpaceFood
