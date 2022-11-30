@@ -1545,3 +1545,152 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.30-19.15.31:775][990]LogContentValidation: Display: Validating Material /Game/TESTCHAR/Props/penmat.penmat
 [2022.11.30-19.15.31:775][990]LogContentValidation: Display: Validating StaticMesh /Game/TESTCHAR/Props/SpacePen.SpacePen
 [2022.11.30-19.15.46:932][829]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.30-19.19.12:090][780]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (High Definition Audio Device), InstanceID=1
+[2022.11.30-19.19.12:090][780]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=10892
+[2022.11.30-19.19.12:726][781]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{b7197795-e6fa-45dd-b9f9-3c405336c3cf}, Name=Speakers (High Definition Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=330.29
+[2022.11.30-19.19.12:726][781]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.11.30-19.19.12:739][782]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.11.30-20.07.31:515][358]LogDerivedDataCache: C:/Users/niall/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.693 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.30-20.27.16:292][554]Cmd: DELETE
+[2022.11.30-20.27.16:292][554]Cmd: ACTOR DELETE
+[2022.11.30-20.27.16:309][554]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.30-20.27.16:378][554]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2022.11.30-20.27.16:392][554]LogEditorActor: Deleted 1 Actors (0.100 secs)
+[2022.11.30-20.27.46:276][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.11.30-20.27.46:302][ 99]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto5
+[2022.11.30-20.27.46:303][ 99]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/VRTemplateMap_Auto5E577BFF0473B86F09796CBAD87CB3746.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto5.umap'
+[2022.11.30-20.27.46:307][ 99]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.055
+[2022.11.30-20.27.46:307][ 99]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.055
+[2022.11.30-20.29.43:691][896]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\niall\OneDrive\Documents\maya\projects\default\scenes\Shotgun.fbx)
+[2022.11.30-20.29.43:710][896]LogFbx: Loading FBX Scene from C:\Users\niall\OneDrive\Documents\maya\projects\default\scenes\Shotgun.fbx
+[2022.11.30-20.29.43:720][896]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.30-20.29.53:396][896]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.11.30-20.29.53:459][896]LogTexture: Display: Building textures: /Game/TESTCHAR/Props/ShotgunTex.ShotgunTex (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.11.30-20.29.53:459][896]LogMaterial: Display: Missing cached shadermap for lambert2 in PCD3D_SM5, Default, SM5 (DDC key hash: 3965343D1D71F6F559A36061BD6B24858C683923), compiling. 
+[2022.11.30-20.29.53:469][896]LogFbx: Display: Triangulating static mesh pCube5
+[2022.11.30-20.29.53:491][896]LogStaticMesh: Display: Building static mesh Shotgun...
+[2022.11.30-20.29.53:516][896]LogStaticMesh: Built static mesh [0.03s] /Game/TESTCHAR/Props/Shotgun.Shotgun
+[2022.11.30-20.29.57:032][ 48]LogShaderCompilers: Display: ================================================
+[2022.11.30-20.29.57:032][ 48]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.30-20.29.57:032][ 48]LogShaderCompilers: Display: Total job queries 221, among them cache hits 96 (43.44%)
+[2022.11.30-20.29.57:032][ 48]LogShaderCompilers: Display: Tracking 101 distinct input hashes that result in 34 distinct outputs (33.66%)
+[2022.11.30-20.29.57:032][ 48]LogShaderCompilers: Display: RAM used: 0.21 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.03%
+[2022.11.30-20.29.57:032][ 48]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.30-20.29.57:032][ 48]LogShaderCompilers: Display: Shaders Compiled: 46
+[2022.11.30-20.29.57:032][ 48]LogShaderCompilers: Display: Jobs assigned 102, completed 101 (99.02%)
+[2022.11.30-20.29.57:032][ 48]LogShaderCompilers: Display: Average time worker was idle: 1158.21 s
+[2022.11.30-20.29.57:032][ 48]LogShaderCompilers: Display: Time job spent in pending queue: average 2.88 s, longest 20.30 s
+[2022.11.30-20.29.57:032][ 48]LogShaderCompilers: Display: Job execution time: average 8.67 s, max 35.47 s
+[2022.11.30-20.29.57:032][ 48]LogShaderCompilers: Display: Job life time (pending + execution): average 11.58 s, max 35.56
+[2022.11.30-20.29.57:033][ 48]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 217.72 s
+[2022.11.30-20.29.57:033][ 48]LogShaderCompilers: Display: Jobs were issued in 92 batches (only local compilation was used), average 1.11 jobs/batch
+[2022.11.30-20.29.57:033][ 48]LogShaderCompilers: Display: Average processing rate: 0.46 jobs/sec
+[2022.11.30-20.29.57:033][ 48]LogShaderCompilers: Display: Effective parallelization: 2.55 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.11.30-20.29.57:033][ 48]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.30-20.29.57:033][ 48]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    6 times, average 9.51 sec, max 14.00 sec, min 7.79 sec)
+[2022.11.30-20.29.57:033][ 48]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    6 times, average 9.29 sec, max 13.65 sec, min 7.63 sec)
+[2022.11.30-20.29.57:033][ 48]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    6 times, average 9.10 sec, max 11.47 sec, min 7.85 sec)
+[2022.11.30-20.29.57:033][ 48]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   10 times, average 8.89 sec, max 14.50 sec, min 6.87 sec)
+[2022.11.30-20.29.57:033][ 48]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    6 times, average 8.38 sec, max 11.36 sec, min 6.97 sec)
+[2022.11.30-20.29.57:033][ 48]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.30-20.29.57:033][ 48]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 16.02% of total time (compiled   10 times, average 8.89 sec, max 14.50 sec, min 6.87 sec)
+[2022.11.30-20.29.57:033][ 48]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.84% of total time (compiled    9 times, average 7.30 sec, max 13.60 sec, min 1.70 sec)
+[2022.11.30-20.29.57:033][ 48]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 10.27% of total time (compiled    6 times, average 9.51 sec, max 14.00 sec, min 7.79 sec)
+[2022.11.30-20.29.57:033][ 48]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 10.04% of total time (compiled    6 times, average 9.29 sec, max 13.65 sec, min 7.63 sec)
+[2022.11.30-20.29.57:033][ 48]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 9.83% of total time (compiled    6 times, average 9.10 sec, max 11.47 sec, min 7.85 sec)
+[2022.11.30-20.29.57:033][ 48]LogShaderCompilers: Display: ================================================
+[2022.11.30-20.30.00:705][205]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/TESTCHAR/Props/Shotgun.Shotgun
+[2022.11.30-20.30.00:717][205]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.30-20.30.01:558][205]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2022.11.30-20.30.07:007][438]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/TESTCHAR/Props/ShotgunTex.ShotgunTex
+[2022.11.30-20.30.07:169][438]LogTextureEditor: Warning: No compression block size found in settings - using 256KB
+[2022.11.30-20.30.07:346][438]LogViewport: Scene viewport resized to 1424x898, mode Windowed.
+[2022.11.30-20.30.52:468][750]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/TESTCHAR/Props/Shotgun) ...
+[2022.11.30-20.30.52:908][751]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/TESTCHAR/Props/Shotgun) ...
+[2022.11.30-20.31.07:107][449]LogEditorFactories: Performing atomic reimport of [C:/Users/niall/OneDrive/Documents/maya/projects/default/scenes/Shotgun.fbx]
+[2022.11.30-20.31.07:119][449]LogFbx: Loading FBX Scene from C:/Users/niall/OneDrive/Documents/maya/projects/default/scenes/Shotgun.fbx
+[2022.11.30-20.31.07:129][449]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.30-20.31.07:356][449]LogFbx: Display: Triangulating static mesh pCube5
+[2022.11.30-20.31.07:391][449]LogStaticMesh: Display: Building static mesh Shotgun...
+[2022.11.30-20.31.07:502][449]LogStaticMesh: Built static mesh [0.11s] /Game/TESTCHAR/Props/Shotgun.Shotgun
+[2022.11.30-20.31.07:557][449]LogEditorFactories: -- imported successfully
+[2022.11.30-20.32.38:472][233]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Digital Audio (S/PDIF) (High Definition Audio Device), InstanceID=1
+[2022.11.30-20.32.38:472][233]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=10892
+[2022.11.30-20.32.38:803][233]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{c7e6fea9-12db-4a1e-9d4d-a12a508d91ad}, Name=Digital Audio (S/PDIF) (High Definition Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=180.20
+[2022.11.30-20.32.38:803][233]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.11.30-20.32.38:816][234]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.11.30-20.37.46:992][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2022.11.30-20.37.46:994][148]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.357
+[2022.11.30-20.37.46:996][148]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TESTCHAR/Props/Shotgun] ([1] browsable assets)...
+[2022.11.30-20.37.47:013][148]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TESTCHAR/Props/Shotgun.Shotgun]
+[2022.11.30-20.37.47:013][148]OBJ SavePackage: Finished generating thumbnails for package [/Game/TESTCHAR/Props/Shotgun]
+[2022.11.30-20.37.47:013][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/Shotgun" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/TESTCHAR/Props/Shotgun_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2022.11.30-20.37.47:020][148]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TESTCHAR/Props/Shotgun_Auto6
+[2022.11.30-20.37.47:021][148]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Shotgun_Auto6E1967BFD4505FE8907FFF68B7885F483.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/TESTCHAR/Props/Shotgun_Auto6.uasset'
+[2022.11.30-20.37.47:022][148]LogFileHelpers: Auto-saving content packages took 0.026
+[2022.11.30-21.07.31:412][953]LogDerivedDataCache: C:/Users/niall/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.610 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.30-21.09.12:227][611]LogViewport: Scene viewport resized to 481x182, mode Windowed.
+[2022.11.30-21.09.13:311][655]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.30-21.11.36:535][725]LogEditorFactories: Performing atomic reimport of [C:/Users/niall/OneDrive/Documents/maya/projects/default/scenes/spacefood2.fbx]
+[2022.11.30-21.11.36:547][725]LogFbx: Loading FBX Scene from C:/Users/niall/OneDrive/Documents/maya/projects/default/scenes/spacefood2.fbx
+[2022.11.30-21.11.36:557][725]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.30-21.11.36:621][725]LogFbx: Display: Triangulating static mesh pCube2
+[2022.11.30-21.11.36:642][725]LogStaticMesh: Display: Building static mesh spacefood2...
+[2022.11.30-21.11.36:719][725]LogStaticMesh: Built static mesh [0.08s] /Game/TESTCHAR/Props/spacefood2.spacefood2
+[2022.11.30-21.11.36:741][725]LogEditorFactories: -- imported successfully
+[2022.11.30-21.11.36:742][725]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'spacefoodtex' was renamed 'spacefoodtex_ncl1_1' 
+[2022.11.30-21.13.10:825][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2022.11.30-21.13.12:629][152]LogSlate: Window 'Save Content' being destroyed
+[2022.11.30-21.13.14:779][152]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.11.30-21.13.30:656][152]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.000026s (15.898942s overbudget)
+[2022.11.30-21.13.30:663][152]LogShaderCompilers: Display: ================================================
+[2022.11.30-21.13.30:663][152]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.30-21.13.30:663][152]LogShaderCompilers: Display: Total job queries 233, among them cache hits 96 (41.20%)
+[2022.11.30-21.13.30:663][152]LogShaderCompilers: Display: Tracking 114 distinct input hashes that result in 34 distinct outputs (29.82%)
+[2022.11.30-21.13.30:663][152]LogShaderCompilers: Display: RAM used: 0.21 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.03%
+[2022.11.30-21.13.30:663][152]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.30-21.13.30:663][152]LogShaderCompilers: Display: Shaders Compiled: 46
+[2022.11.30-21.13.30:663][152]LogShaderCompilers: Display: Jobs assigned 114, completed 114 (100.00%)
+[2022.11.30-21.13.30:663][152]LogShaderCompilers: Display: Average time worker was idle: 1212.26 s
+[2022.11.30-21.13.30:663][152]LogShaderCompilers: Display: Time job spent in pending queue: average 3.20 s, longest 20.30 s
+[2022.11.30-21.13.30:663][152]LogShaderCompilers: Display: Job execution time: average 8.41 s, max 35.47 s
+[2022.11.30-21.13.30:663][152]LogShaderCompilers: Display: Job life time (pending + execution): average 11.60 s, max 35.56
+[2022.11.30-21.13.30:663][152]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 246.64 s
+[2022.11.30-21.13.30:663][152]LogShaderCompilers: Display: Jobs were issued in 104 batches (only local compilation was used), average 1.10 jobs/batch
+[2022.11.30-21.13.30:663][152]LogShaderCompilers: Display: Average processing rate: 0.46 jobs/sec
+[2022.11.30-21.13.30:663][152]LogShaderCompilers: Display: Effective parallelization: 2.57 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.11.30-21.13.30:663][152]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.30-21.13.30:663][152]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    7 times, average 9.59 sec, max 14.00 sec, min 7.79 sec)
+[2022.11.30-21.13.30:663][152]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    7 times, average 9.33 sec, max 13.65 sec, min 7.63 sec)
+[2022.11.30-21.13.30:663][152]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    7 times, average 9.24 sec, max 11.47 sec, min 7.85 sec)
+[2022.11.30-21.13.30:664][152]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   11 times, average 8.83 sec, max 14.50 sec, min 6.87 sec)
+[2022.11.30-21.13.30:664][152]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    7 times, average 8.42 sec, max 11.36 sec, min 6.97 sec)
+[2022.11.30-21.13.30:664][152]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.30-21.13.30:664][152]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 15.34% of total time (compiled   11 times, average 8.83 sec, max 14.50 sec, min 6.87 sec)
+[2022.11.30-21.13.30:664][152]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.46% of total time (compiled   10 times, average 7.26 sec, max 13.60 sec, min 1.70 sec)
+[2022.11.30-21.13.30:664][152]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 10.60% of total time (compiled    7 times, average 9.59 sec, max 14.00 sec, min 7.79 sec)
+[2022.11.30-21.13.30:664][152]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 10.31% of total time (compiled    7 times, average 9.33 sec, max 13.65 sec, min 7.63 sec)
+[2022.11.30-21.13.30:664][152]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 10.22% of total time (compiled    7 times, average 9.24 sec, max 11.47 sec, min 7.85 sec)
+[2022.11.30-21.13.30:664][152]LogShaderCompilers: Display: ================================================
+[2022.11.30-21.13.30:679][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/lambert2" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/lambert2.uasset" SILENT=true
+[2022.11.30-21.13.30:686][152]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Props/lambert2
+[2022.11.30-21.13.30:686][152]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/lambert2C93BDEE64B84C5E185DE3FBB33456533.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/lambert2.uasset'
+[2022.11.30-21.13.30:688][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/Shotgun" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/Shotgun.uasset" SILENT=true
+[2022.11.30-21.13.30:694][152]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Props/Shotgun
+[2022.11.30-21.13.30:694][152]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/ShotgunC8DDA0414A9E4DDFBCF78296A225459D.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/Shotgun.uasset'
+[2022.11.30-21.13.30:698][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/ShotgunTex" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/ShotgunTex.uasset" SILENT=true
+[2022.11.30-21.13.30:758][152]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Props/ShotgunTex
+[2022.11.30-21.13.30:758][152]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/ShotgunTex2883EDAE472D369E5E5581B905CE9FEF.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/ShotgunTex.uasset'
+[2022.11.30-21.13.30:800][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/spacefood2" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/spacefood2.uasset" SILENT=true
+[2022.11.30-21.13.30:808][152]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Props/spacefood2
+[2022.11.30-21.13.30:809][152]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/spacefood2B64F3DBB43FF439DAF674EAB7C93AD55.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/spacefood2.uasset'
+[2022.11.30-21.13.30:845][152]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.11.30-21.13.30:888][152]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2022.11.30-21.13.30:889][152]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/VRTemplateMapEAE5D4AB4CEF07F995A9B68248BCBFFC.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2022.11.30-21.13.30:907][152]LogFileHelpers: Saving map 'VRTemplateMap' took 0.096
+[2022.11.30-21.13.30:921][152]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.30-21.13.30:921][152]LogContentValidation: Display: Validating Texture2D /Game/TESTCHAR/Props/ShotgunTex.ShotgunTex
+[2022.11.30-21.13.30:921][152]LogContentValidation: Display: Validating Material /Game/TESTCHAR/Props/lambert2.lambert2
+[2022.11.30-21.13.30:922][152]LogContentValidation: Display: Validating StaticMesh /Game/TESTCHAR/Props/Shotgun.Shotgun
+[2022.11.30-21.13.30:922][152]LogContentValidation: Display: Validating StaticMesh /Game/TESTCHAR/Props/spacefood2.spacefood2
+[2022.11.30-21.13.30:922][152]LogContentValidation: Display: Validating World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
