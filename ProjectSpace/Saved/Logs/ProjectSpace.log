@@ -1417,3 +1417,131 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.30-16.07.44:207][185]LogContentValidation: Display: Validating Texture2D /Game/TESTCHAR/UI/export202211301557293280.export202211301557293280
 [2022.11.30-16.07.44:207][185]LogContentValidation: Display: Validating Texture2D /Game/TESTCHAR/UI/export202211301558419650.export202211301558419650
 [2022.11.30-16.07.44:207][185]LogContentValidation: Display: Validating Texture2D /Game/TESTCHAR/UI/export202211301559057550.export202211301559057550
+[2022.11.30-16.43.05:822][ 88]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\niall\OneDrive\Documents\maya\projects\default\scenes\SpacePen.fbx)
+[2022.11.30-16.43.05:838][ 88]LogFbx: Loading FBX Scene from C:\Users\niall\OneDrive\Documents\maya\projects\default\scenes\SpacePen.fbx
+[2022.11.30-16.43.05:851][ 88]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.30-16.43.14:183][ 88]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.11.30-16.43.14:288][ 88]LogTexture: Display: Building textures: /Game/TESTCHAR/Props/SpacePenTex.SpacePenTex (TFO_AutoDXT, 504X512 X1X1) (Required Memory Estimate: 4.921875 MB), EncodeSpeed: Fast
+[2022.11.30-16.43.14:294][ 88]LogMaterial: Display: Missing cached shadermap for penmat in PCD3D_SM5, Default, SM5 (DDC key hash: EB542102A67979CA1B7EDE6A9987D8BE83AAC510), compiling. 
+[2022.11.30-16.43.14:316][ 88]LogTexture: Display: Building textures: /Game/TESTCHAR/Props/SpacePenTex_ncl1_1.SpacePenTex_ncl1_1 (TFO_AutoDXT, 504X512 X1X1) (Required Memory Estimate: 4.921875 MB), EncodeSpeed: Fast
+[2022.11.30-16.43.14:316][ 88]LogMaterial: Display: Missing cached shadermap for lambert1 in PCD3D_SM5, Default, SM5 (DDC key hash: E03B1F0A0C16440ACC33411838323CB81DFDE1F6), compiling. 
+[2022.11.30-16.43.14:322][ 88]LogFbx: Display: Triangulating static mesh pCylinder3
+[2022.11.30-16.43.14:336][ 88]LogStaticMesh: Display: Building static mesh SpacePen...
+[2022.11.30-16.43.14:355][ 88]LogStaticMesh: Built static mesh [0.02s] /Game/TESTCHAR/Props/SpacePen.SpacePen
+[2022.11.30-16.43.14:367][ 88]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'SpacePenTex' was renamed 'SpacePenTex_ncl1_1' 
+[2022.11.30-16.43.18:369][246]LogShaderCompilers: Display: ================================================
+[2022.11.30-16.43.18:369][246]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.30-16.43.18:369][246]LogShaderCompilers: Display: Total job queries 195, among them cache hits 96 (49.23%)
+[2022.11.30-16.43.18:369][246]LogShaderCompilers: Display: Tracking 73 distinct input hashes that result in 34 distinct outputs (46.58%)
+[2022.11.30-16.43.18:369][246]LogShaderCompilers: Display: RAM used: 0.21 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.03%
+[2022.11.30-16.43.18:369][246]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.30-16.43.18:369][246]LogShaderCompilers: Display: Shaders Compiled: 44
+[2022.11.30-16.43.18:369][246]LogShaderCompilers: Display: Jobs assigned 76, completed 73 (96.05%)
+[2022.11.30-16.43.18:369][246]LogShaderCompilers: Display: Average time worker was idle: 913.06 s
+[2022.11.30-16.43.18:369][246]LogShaderCompilers: Display: Time job spent in pending queue: average 2.34 s, longest 20.30 s
+[2022.11.30-16.43.18:369][246]LogShaderCompilers: Display: Job execution time: average 9.79 s, max 35.47 s
+[2022.11.30-16.43.18:369][246]LogShaderCompilers: Display: Job life time (pending + execution): average 12.22 s, max 35.56
+[2022.11.30-16.43.18:369][246]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 167.57 s
+[2022.11.30-16.43.18:369][246]LogShaderCompilers: Display: Jobs were issued in 66 batches (only local compilation was used), average 1.15 jobs/batch
+[2022.11.30-16.43.18:369][246]LogShaderCompilers: Display: Average processing rate: 0.44 jobs/sec
+[2022.11.30-16.43.18:369][246]LogShaderCompilers: Display: Effective parallelization: 2.39 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.11.30-16.43.18:369][246]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.30-16.43.18:369][246]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    4 times, average 10.01 sec, max 14.00 sec, min 7.79 sec)
+[2022.11.30-16.43.18:369][246]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    4 times, average 9.78 sec, max 13.65 sec, min 7.63 sec)
+[2022.11.30-16.43.18:369][246]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    4 times, average 9.38 sec, max 11.47 sec, min 7.85 sec)
+[2022.11.30-16.43.18:370][246]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    4 times, average 8.70 sec, max 11.36 sec, min 6.97 sec)
+[2022.11.30-16.43.18:370][246]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    8 times, average 8.58 sec, max 14.50 sec, min 6.87 sec)
+[2022.11.30-16.43.18:370][246]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.30-16.43.18:370][246]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 17.13% of total time (compiled    8 times, average 8.58 sec, max 14.50 sec, min 6.87 sec)
+[2022.11.30-16.43.18:370][246]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.37% of total time (compiled    7 times, average 7.08 sec, max 13.60 sec, min 1.70 sec)
+[2022.11.30-16.43.18:370][246]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 9.99% of total time (compiled    4 times, average 10.01 sec, max 14.00 sec, min 7.79 sec)
+[2022.11.30-16.43.18:370][246]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 9.76% of total time (compiled    4 times, average 9.78 sec, max 13.65 sec, min 7.63 sec)
+[2022.11.30-16.43.18:370][246]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 9.36% of total time (compiled    4 times, average 9.38 sec, max 11.47 sec, min 7.85 sec)
+[2022.11.30-16.43.18:370][246]LogShaderCompilers: Display: ================================================
+[2022.11.30-16.43.47:825][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.11.30-16.43.47:828][643]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.030
+[2022.11.30-16.43.47:828][643]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TESTCHAR/Props/SpacePen] ([1] browsable assets)...
+[2022.11.30-16.43.47:839][643]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TESTCHAR/Props/SpacePen.SpacePen]
+[2022.11.30-16.43.47:839][643]OBJ SavePackage: Finished generating thumbnails for package [/Game/TESTCHAR/Props/SpacePen]
+[2022.11.30-16.43.47:839][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/SpacePen" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/TESTCHAR/Props/SpacePen_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2022.11.30-16.43.47:846][643]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TESTCHAR/Props/SpacePen_Auto4
+[2022.11.30-16.43.47:847][643]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/SpacePen_Auto41E107C204D89FE0B835547A8748CC713.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/TESTCHAR/Props/SpacePen_Auto4.uasset'
+[2022.11.30-16.43.47:848][643]LogFileHelpers: Auto-saving content packages took 0.020
+[2022.11.30-16.44.33:156][462]LogSlate: Window 'Message Log' being destroyed
+[2022.11.30-16.44.33:170][462]LogSlate: Window 'Message Log' being destroyed
+[2022.11.30-16.44.36:494][641]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/TESTCHAR/Props/SpacePen.SpacePen
+[2022.11.30-16.44.36:502][641]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.30-16.44.37:208][641]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2022.11.30-16.44.47:138][163]Cmd: MODE GRID=1
+[2022.11.30-16.44.47:976][222]Cmd: MODE GRID=0
+[2022.11.30-17.07.31:197][610]LogDerivedDataCache: C:/Users/niall/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.433 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.30-17.19.30:191][330]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.30-18.07.31:251][774]LogDerivedDataCache: C:/Users/niall/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.569 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.30-18.19.50:412][978]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Digital Audio (S/PDIF) (High Definition Audio Device), InstanceID=1
+[2022.11.30-18.19.50:412][978]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=10892
+[2022.11.30-18.19.50:735][978]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{c7e6fea9-12db-4a1e-9d4d-a12a508d91ad}, Name=Digital Audio (S/PDIF) (High Definition Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=231.65
+[2022.11.30-18.19.50:735][978]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.11.30-18.19.50:773][979]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.11.30-19.07.31:301][497]LogDerivedDataCache: C:/Users/niall/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.527 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.30-19.14.48:470][401]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.11.30-19.14.48:486][401]LogContentBrowser: Creating deferred item: NewFolder
+[2022.11.30-19.14.48:506][402]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.11.30-19.14.55:183][798]LogContentBrowser: Attempting asset rename: NewFolder -> Particles
+[2022.11.30-19.14.55:183][798]LogContentBrowser: End creating deferred item NewFolder
+[2022.11.30-19.14.58:858][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2022.11.30-19.15.00:171][990]LogSlate: Window 'Save Content' being destroyed
+[2022.11.30-19.15.02:320][990]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.11.30-19.15.16:678][990]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.001002s (14.392922s overbudget)
+[2022.11.30-19.15.16:686][990]LogShaderCompilers: Display: ================================================
+[2022.11.30-19.15.16:686][990]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.30-19.15.16:686][990]LogShaderCompilers: Display: Total job queries 208, among them cache hits 96 (46.15%)
+[2022.11.30-19.15.16:686][990]LogShaderCompilers: Display: Tracking 89 distinct input hashes that result in 34 distinct outputs (38.20%)
+[2022.11.30-19.15.16:686][990]LogShaderCompilers: Display: RAM used: 0.21 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.03%
+[2022.11.30-19.15.16:686][990]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.30-19.15.16:686][990]LogShaderCompilers: Display: Shaders Compiled: 44
+[2022.11.30-19.15.16:686][990]LogShaderCompilers: Display: Jobs assigned 89, completed 89 (100.00%)
+[2022.11.30-19.15.16:686][990]LogShaderCompilers: Display: Average time worker was idle: 1239.87 s
+[2022.11.30-19.15.16:686][990]LogShaderCompilers: Display: Time job spent in pending queue: average 2.71 s, longest 20.30 s
+[2022.11.30-19.15.16:686][990]LogShaderCompilers: Display: Job execution time: average 9.19 s, max 35.47 s
+[2022.11.30-19.15.16:687][990]LogShaderCompilers: Display: Job life time (pending + execution): average 11.89 s, max 35.56
+[2022.11.30-19.15.16:687][990]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 199.45 s
+[2022.11.30-19.15.16:687][990]LogShaderCompilers: Display: Jobs were issued in 79 batches (only local compilation was used), average 1.13 jobs/batch
+[2022.11.30-19.15.16:687][990]LogShaderCompilers: Display: Average processing rate: 0.45 jobs/sec
+[2022.11.30-19.15.16:687][990]LogShaderCompilers: Display: Effective parallelization: 2.50 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.11.30-19.15.16:687][990]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.30-19.15.16:687][990]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    5 times, average 9.82 sec, max 14.00 sec, min 7.79 sec)
+[2022.11.30-19.15.16:687][990]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    5 times, average 9.59 sec, max 13.65 sec, min 7.63 sec)
+[2022.11.30-19.15.16:687][990]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    5 times, average 9.32 sec, max 11.47 sec, min 7.85 sec)
+[2022.11.30-19.15.16:687][990]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   10 times, average 8.89 sec, max 14.50 sec, min 6.87 sec)
+[2022.11.30-19.15.16:687][990]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    5 times, average 8.53 sec, max 11.36 sec, min 6.97 sec)
+[2022.11.30-19.15.16:687][990]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.30-19.15.16:687][990]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 17.84% of total time (compiled   10 times, average 8.89 sec, max 14.50 sec, min 6.87 sec)
+[2022.11.30-19.15.16:687][990]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.18% of total time (compiled    9 times, average 7.30 sec, max 13.60 sec, min 1.70 sec)
+[2022.11.30-19.15.16:687][990]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 9.85% of total time (compiled    5 times, average 9.82 sec, max 14.00 sec, min 7.79 sec)
+[2022.11.30-19.15.16:687][990]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 9.62% of total time (compiled    5 times, average 9.59 sec, max 13.65 sec, min 7.63 sec)
+[2022.11.30-19.15.16:687][990]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 9.35% of total time (compiled    5 times, average 9.32 sec, max 11.47 sec, min 7.85 sec)
+[2022.11.30-19.15.16:687][990]LogShaderCompilers: Display: ================================================
+[2022.11.30-19.15.16:703][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/lambert1" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/lambert1.uasset" SILENT=true
+[2022.11.30-19.15.16:706][990]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Props/lambert1
+[2022.11.30-19.15.16:706][990]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/lambert1C66E3F96444DA08DD5C6B9BDFE1FB4FD.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/lambert1.uasset'
+[2022.11.30-19.15.18:818][990]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.11.30-19.15.31:613][990]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.000942s (12.875210s overbudget)
+[2022.11.30-19.15.31:635][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/penmat" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/penmat.uasset" SILENT=true
+[2022.11.30-19.15.31:691][990]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Props/penmat
+[2022.11.30-19.15.31:691][990]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/penmatB1EB10834B51888173A6BFA3D37BAC7D.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/penmat.uasset'
+[2022.11.30-19.15.31:692][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/SpacePen" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/SpacePen.uasset" SILENT=true
+[2022.11.30-19.15.31:698][990]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Props/SpacePen
+[2022.11.30-19.15.31:698][990]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/SpacePen8E33A2754443230DA52036999CB926FF.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/SpacePen.uasset'
+[2022.11.30-19.15.31:702][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/SpacePenTex" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/SpacePenTex.uasset" SILENT=true
+[2022.11.30-19.15.31:727][990]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Props/SpacePenTex
+[2022.11.30-19.15.31:727][990]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/SpacePenTex89C463A946D3BAA63077448C6F94975D.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/SpacePenTex.uasset'
+[2022.11.30-19.15.31:731][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/SpacePenTex_ncl1_1" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/SpacePenTex_ncl1_1.uasset" SILENT=true
+[2022.11.30-19.15.31:757][990]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Props/SpacePenTex_ncl1_1
+[2022.11.30-19.15.31:757][990]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/SpacePenTex_ncl1_1E449EC794D7E457E68FEA8B0815F0068.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/SpacePenTex_ncl1_1.uasset'
+[2022.11.30-19.15.31:774][990]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.30-19.15.31:774][990]LogContentValidation: Display: Validating Texture2D /Game/TESTCHAR/Props/SpacePenTex_ncl1_1.SpacePenTex_ncl1_1
+[2022.11.30-19.15.31:774][990]LogContentValidation: Display: Validating Material /Game/TESTCHAR/Props/lambert1.lambert1
+[2022.11.30-19.15.31:775][990]LogContentValidation: Display: Validating Texture2D /Game/TESTCHAR/Props/SpacePenTex.SpacePenTex
+[2022.11.30-19.15.31:775][990]LogContentValidation: Display: Validating Material /Game/TESTCHAR/Props/penmat.penmat
+[2022.11.30-19.15.31:775][990]LogContentValidation: Display: Validating StaticMesh /Game/TESTCHAR/Props/SpacePen.SpacePen
+[2022.11.30-19.15.46:932][829]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
