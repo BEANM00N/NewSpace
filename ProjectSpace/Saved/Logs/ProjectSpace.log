@@ -1694,3 +1694,297 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.30-21.13.30:922][152]LogContentValidation: Display: Validating StaticMesh /Game/TESTCHAR/Props/Shotgun.Shotgun
 [2022.11.30-21.13.30:922][152]LogContentValidation: Display: Validating StaticMesh /Game/TESTCHAR/Props/spacefood2.spacefood2
 [2022.11.30-21.13.30:922][152]LogContentValidation: Display: Validating World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2022.11.30-21.22.03:594][429]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (High Definition Audio Device), InstanceID=1
+[2022.11.30-21.22.03:623][430]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=10892
+[2022.11.30-21.22.04:211][450]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{b7197795-e6fa-45dd-b9f9-3c405336c3cf}, Name=Speakers (High Definition Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=586.46
+[2022.11.30-21.22.04:212][450]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.11.30-21.22.04:228][451]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.11.30-21.22.49:304][872]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/TESTCHAR/Props/Roverhead.Roverhead
+[2022.11.30-21.22.49:317][872]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.30-21.22.50:037][872]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2022.11.30-21.23.01:190][417]LogEditorFactories: Performing atomic reimport of [C:/Users/niall/OneDrive/Documents/maya/projects/default/scenes/Roverhead.fbx]
+[2022.11.30-21.23.01:204][417]LogFbx: Loading FBX Scene from C:/Users/niall/OneDrive/Documents/maya/projects/default/scenes/Roverhead.fbx
+[2022.11.30-21.23.01:224][417]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.30-21.23.01:302][417]LogFbx: Display: Triangulating static mesh pCube10
+[2022.11.30-21.23.01:345][417]LogStaticMesh: Display: Building static mesh Roverhead...
+[2022.11.30-21.23.01:443][417]LogStaticMesh: Built static mesh [0.10s] /Game/TESTCHAR/Props/Roverhead.Roverhead
+[2022.11.30-21.23.01:472][417]LogEditorFactories: -- imported successfully
+[2022.11.30-21.23.01:474][417]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'RoverUV' was renamed 'RoverUV_ncl1_1' 
+[2022.11.30-21.23.49:696][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2022.11.30-21.23.49:698][672]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.316
+[2022.11.30-21.23.49:699][672]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TESTCHAR/Props/Roverhead] ([1] browsable assets)...
+[2022.11.30-21.23.49:715][672]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TESTCHAR/Props/Roverhead.Roverhead]
+[2022.11.30-21.23.49:715][672]OBJ SavePackage: Finished generating thumbnails for package [/Game/TESTCHAR/Props/Roverhead]
+[2022.11.30-21.23.49:725][672]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TESTCHAR/Props/Roverhead_Auto7
+[2022.11.30-21.23.49:725][672]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Roverhead_Auto72CE06E8448043AEE7F3F668C64DC0386.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/TESTCHAR/Props/Roverhead_Auto7.uasset'
+[2022.11.30-21.23.49:726][672]LogFileHelpers: Auto-saving content packages took 0.028
+[2022.11.30-21.25.04:626][ 65]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Roverhead.Roverhead
+[2022.11.30-21.25.04:626][ 65]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Roverhead.Roverhead
+[2022.11.30-21.25.04:627][ 65]LogActorFactory: Actor Factory spawned StaticMesh /Game/TESTCHAR/Props/Roverhead.Roverhead as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_10
+[2022.11.30-21.25.05:610][130]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Roverhead.Roverhead
+[2022.11.30-21.25.05:610][130]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Roverhead.Roverhead
+[2022.11.30-21.25.05:611][130]LogActorFactory: Actor Factory spawned StaticMesh /Game/TESTCHAR/Props/Roverhead.Roverhead as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_11
+[2022.11.30-21.25.06:549][162]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.30-21.25.22:737][786]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.30-21.25.26:973][954]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.30-21.25.43:128][588]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Shotgun.Shotgun
+[2022.11.30-21.25.43:128][588]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Shotgun.Shotgun
+[2022.11.30-21.25.43:128][588]LogActorFactory: Actor Factory spawned StaticMesh /Game/TESTCHAR/Props/Shotgun.Shotgun as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_12
+[2022.11.30-21.25.43:594][620]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Shotgun.Shotgun
+[2022.11.30-21.25.43:594][620]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Shotgun.Shotgun
+[2022.11.30-21.25.43:595][620]LogActorFactory: Actor Factory spawned StaticMesh /Game/TESTCHAR/Props/Shotgun.Shotgun as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_13
+[2022.11.30-21.25.47:669][772]Cmd: TRANSACTION UNDO
+[2022.11.30-21.25.47:669][772]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.30-21.25.48:487][772]LogMaterial: Display: Missing cached shadermap for Preview:HelmetLensMat in PCD3D_SM5, Default, SM5 (DDC key hash: 4E3F99F1C625E6A3CBA8FD56E10B579998A8A72F), compiling. 
+[2022.11.30-21.25.48:542][772]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: 3E02C34B392101F7D65A68D08C677AAD3A07C3C6), compiling. 
+[2022.11.30-21.25.48:696][772]Cmd: TRANSACTION UNDO
+[2022.11.30-21.25.48:696][772]LogEditorTransaction: Undo Create Actors
+[2022.11.30-21.25.49:536][772]LogMaterial: Display: Missing cached shadermap for Preview:HelmetLensMat in PCD3D_SM5, Default, SM5 (DDC key hash: 9828D813A4C9501317A07E27B9A40A18C482FF4E), compiling. 
+[2022.11.30-21.25.49:587][772]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: A36294D6722DCD23BBD7604AF008993E5FB40A0A), compiling. 
+[2022.11.30-21.25.51:244][772]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.30-21.25.51:244][772]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.30-21.25.51:244][772]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.30-21.25.51:244][772]MaterialEditorStats: Shader Count: 0
+[2022.11.30-21.25.51:245][772]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.30-21.25.51:245][772]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.30-21.25.51:245][772]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.30-21.25.51:245][772]MaterialEditorStats: Shader Count: 0
+[2022.11.30-21.25.51:419][773]LogShaderCompilers: Display: ================================================
+[2022.11.30-21.25.51:419][773]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.30-21.25.51:419][773]LogShaderCompilers: Display: Total job queries 237, among them cache hits 100 (42.19%)
+[2022.11.30-21.25.51:419][773]LogShaderCompilers: Display: Tracking 114 distinct input hashes that result in 34 distinct outputs (29.82%)
+[2022.11.30-21.25.51:419][773]LogShaderCompilers: Display: RAM used: 0.21 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.03%
+[2022.11.30-21.25.51:419][773]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.30-21.25.51:419][773]LogShaderCompilers: Display: Shaders Compiled: 46
+[2022.11.30-21.25.51:419][773]LogShaderCompilers: Display: Jobs assigned 114, completed 114 (100.00%)
+[2022.11.30-21.25.51:419][773]LogShaderCompilers: Display: Average time worker was idle: 1212.26 s
+[2022.11.30-21.25.51:419][773]LogShaderCompilers: Display: Time job spent in pending queue: average 3.20 s, longest 20.30 s
+[2022.11.30-21.25.51:419][773]LogShaderCompilers: Display: Job execution time: average 8.41 s, max 35.47 s
+[2022.11.30-21.25.51:419][773]LogShaderCompilers: Display: Job life time (pending + execution): average 11.60 s, max 35.56
+[2022.11.30-21.25.51:420][773]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 246.64 s
+[2022.11.30-21.25.51:420][773]LogShaderCompilers: Display: Jobs were issued in 104 batches (only local compilation was used), average 1.10 jobs/batch
+[2022.11.30-21.25.51:420][773]LogShaderCompilers: Display: Average processing rate: 0.46 jobs/sec
+[2022.11.30-21.25.51:420][773]LogShaderCompilers: Display: Effective parallelization: 2.57 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.11.30-21.25.51:420][773]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.30-21.25.51:420][773]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    7 times, average 9.59 sec, max 14.00 sec, min 7.79 sec)
+[2022.11.30-21.25.51:420][773]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    7 times, average 9.33 sec, max 13.65 sec, min 7.63 sec)
+[2022.11.30-21.25.51:420][773]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    7 times, average 9.24 sec, max 11.47 sec, min 7.85 sec)
+[2022.11.30-21.25.51:420][773]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   11 times, average 8.83 sec, max 14.50 sec, min 6.87 sec)
+[2022.11.30-21.25.51:420][773]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    7 times, average 8.42 sec, max 11.36 sec, min 6.97 sec)
+[2022.11.30-21.25.51:420][773]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.30-21.25.51:420][773]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 15.34% of total time (compiled   11 times, average 8.83 sec, max 14.50 sec, min 6.87 sec)
+[2022.11.30-21.25.51:420][773]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.46% of total time (compiled   10 times, average 7.26 sec, max 13.60 sec, min 1.70 sec)
+[2022.11.30-21.25.51:420][773]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 10.60% of total time (compiled    7 times, average 9.59 sec, max 14.00 sec, min 7.79 sec)
+[2022.11.30-21.25.51:420][773]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 10.31% of total time (compiled    7 times, average 9.33 sec, max 13.65 sec, min 7.63 sec)
+[2022.11.30-21.25.51:420][773]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 10.22% of total time (compiled    7 times, average 9.24 sec, max 11.47 sec, min 7.85 sec)
+[2022.11.30-21.25.51:420][773]LogShaderCompilers: Display: ================================================
+[2022.11.30-21.25.51:508][774]Cmd: DELETE
+[2022.11.30-21.25.51:508][774]Cmd: ACTOR DELETE
+[2022.11.30-21.25.51:511][774]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.30-21.25.51:589][774]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2022.11.30-21.25.51:591][774]LogEditorActor: Deleted 1 Actors (0.083 secs)
+[2022.11.30-21.25.51:610][774]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.30-21.25.51:610][774]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.30-21.25.51:610][774]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.30-21.25.51:610][774]MaterialEditorStats: Shader Count: 2
+[2022.11.30-21.25.51:611][774]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.30-21.25.51:611][774]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.30-21.25.51:611][774]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.30-21.25.51:611][774]MaterialEditorStats: Shader Count: 2
+[2022.11.30-21.25.52:886][825]Cmd: TRANSACTION UNDO
+[2022.11.30-21.25.52:886][825]LogEditorTransaction: Undo Delete Elements
+[2022.11.30-21.25.53:764][825]LogMaterial: Display: Missing cached shadermap for Preview:HelmetLensMat in PCD3D_SM5, Default, SM5 (DDC key hash: BADDFBB96263D44DD6F0B192D3286396AF41B631), compiling. 
+[2022.11.30-21.25.53:808][825]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: ADB503B2FF6F7C650E670EBF2FA0488FEEB074EE), compiling. 
+[2022.11.30-21.25.53:948][825]Cmd: TRANSACTION UNDO
+[2022.11.30-21.25.53:948][825]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.30-21.25.54:757][825]LogMaterial: Display: Missing cached shadermap for Preview:HelmetLensMat in PCD3D_SM5, Default, SM5 (DDC key hash: D1AFA96EC7C5EA5D0CEF656ABA338B4D1793B212), compiling. 
+[2022.11.30-21.25.54:805][825]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: F947FA5BCCC2A834D63EB8483D60FDB0CA8EEF82), compiling. 
+[2022.11.30-21.25.56:427][825]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.30-21.25.56:427][825]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.30-21.25.56:427][825]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.30-21.25.56:427][825]MaterialEditorStats: Shader Count: 0
+[2022.11.30-21.25.56:427][825]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.30-21.25.56:427][825]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.30-21.25.56:428][825]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.30-21.25.56:428][825]MaterialEditorStats: Shader Count: 0
+[2022.11.30-21.25.56:710][827]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.30-21.25.56:710][827]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.30-21.25.56:710][827]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.30-21.25.56:710][827]MaterialEditorStats: Shader Count: 2
+[2022.11.30-21.25.56:710][827]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.30-21.25.56:710][827]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.30-21.25.56:710][827]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.30-21.25.56:710][827]MaterialEditorStats: Shader Count: 2
+[2022.11.30-21.25.58:050][875]Cmd: TRANSACTION UNDO
+[2022.11.30-21.25.58:051][875]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.30-21.25.58:805][875]LogMaterial: Display: Missing cached shadermap for Preview:HelmetLensMat in PCD3D_SM5, Default, SM5 (DDC key hash: 25E4C752E644C72D0FB407167B7A856DC53F019A), compiling. 
+[2022.11.30-21.25.58:852][875]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: 7DF5D2B91678F43DEF36F9322EF79E815600C7B8), compiling. 
+[2022.11.30-21.25.59:599][875]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.30-21.25.59:599][875]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.30-21.25.59:599][875]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.30-21.25.59:599][875]MaterialEditorStats: Shader Count: 0
+[2022.11.30-21.25.59:599][875]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.30-21.25.59:599][875]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.30-21.25.59:599][875]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.30-21.25.59:599][875]MaterialEditorStats: Shader Count: 0
+[2022.11.30-21.25.59:767][877]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.30-21.25.59:767][877]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.30-21.25.59:767][877]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.30-21.25.59:767][877]MaterialEditorStats: Shader Count: 2
+[2022.11.30-21.25.59:822][878]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.30-21.25.59:822][878]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.30-21.25.59:822][878]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.30-21.25.59:822][878]MaterialEditorStats: Shader Count: 2
+[2022.11.30-21.26.00:140][886]Cmd: TRANSACTION UNDO
+[2022.11.30-21.26.00:140][886]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.30-21.26.00:902][886]LogMaterial: Display: Missing cached shadermap for Preview:HelmetLensMat in PCD3D_SM5, Default, SM5 (DDC key hash: 3C9CC9FED01BB8078557C322BB433861A1078CC9), compiling. 
+[2022.11.30-21.26.00:948][886]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: FFB70A4DF59CDC9C582C8C5EAC0C5FF3D18A7FCF), compiling. 
+[2022.11.30-21.26.01:684][886]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.30-21.26.01:684][886]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.30-21.26.01:684][886]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.30-21.26.01:684][886]MaterialEditorStats: Shader Count: 0
+[2022.11.30-21.26.01:684][886]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.30-21.26.01:684][886]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.30-21.26.01:684][886]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.30-21.26.01:684][886]MaterialEditorStats: Shader Count: 0
+[2022.11.30-21.26.01:752][887]Cmd: TRANSACTION UNDO
+[2022.11.30-21.26.01:752][887]LogEditorTransaction: Undo Rotate Elements
+[2022.11.30-21.26.02:470][887]LogMaterial: Display: Missing cached shadermap for Preview:HelmetLensMat in PCD3D_SM5, Default, SM5 (DDC key hash: 1892FB796228890951F614541891B72F912B4323), compiling. 
+[2022.11.30-21.26.02:513][887]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: 64ACBD103AEACCE4B87EE5003E048FBFEEF22249), compiling. 
+[2022.11.30-21.26.02:632][887]Cmd: TRANSACTION UNDO
+[2022.11.30-21.26.02:633][887]LogEditorTransaction: Undo Rotate Elements
+[2022.11.30-21.26.03:389][887]LogMaterial: Display: Missing cached shadermap for Preview:HelmetLensMat in PCD3D_SM5, Default, SM5 (DDC key hash: 49128950CB98FCD8A5AC4ED9A20A6EE67D9928FB), compiling. 
+[2022.11.30-21.26.03:436][887]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: B0043A24C48E71A65A027155C8018D6129C31768), compiling. 
+[2022.11.30-21.26.03:558][887]Cmd: TRANSACTION UNDO
+[2022.11.30-21.26.03:558][887]LogEditorTransaction: Undo Create Actors
+[2022.11.30-21.26.04:324][887]LogMaterial: Display: Missing cached shadermap for Preview:HelmetLensMat in PCD3D_SM5, Default, SM5 (DDC key hash: 70F2C7116EC06EE88559C8B544470387B16FE48D), compiling. 
+[2022.11.30-21.26.04:373][887]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: E3B8699F1DD0AF0C437998B230CFD5B867C0C553), compiling. 
+[2022.11.30-21.26.04:499][887]Cmd: TRANSACTION UNDO
+[2022.11.30-21.26.04:499][887]LogEditorTransaction: Undo Edit Z
+[2022.11.30-21.26.04:610][887]LogStaticMesh: Warning: Roverhead has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.11.30-21.26.04:610][887]LogStaticMesh: Warning: Roverhead has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.11.30-21.26.05:258][887]LogMaterial: Display: Missing cached shadermap for Preview:HelmetLensMat in PCD3D_SM5, Default, SM5 (DDC key hash: E7BA42787FA01DE2A0DD91FBC2DB988643E67C6C), compiling. 
+[2022.11.30-21.26.05:302][887]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: 5EEA25EF9E2A822B9D33F82D178FDC31DBEF6ABA), compiling. 
+[2022.11.30-21.26.05:427][887]Cmd: TRANSACTION UNDO
+[2022.11.30-21.26.05:427][887]LogEditorTransaction: Undo Edit X
+[2022.11.30-21.26.06:251][887]LogMaterial: Display: Missing cached shadermap for Preview:HelmetLensMat in PCD3D_SM5, Default, SM5 (DDC key hash: F7E95959E3BD10A2DCAEE0E16146BBF64C1207BA), compiling. 
+[2022.11.30-21.26.06:296][887]LogMaterial: Display: Missing cached shadermap for Preview:spacefoodtex in PCD3D_SM5, Default, SM5 (DDC key hash: C86F78726E32A34DE6EBA1135B6A9EC883DB662F), compiling. 
+[2022.11.30-21.26.12:846][888]LogViewport: Scene viewport resized to 481x182, mode Windowed.
+[2022.11.30-21.26.12:929][889]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.30-21.26.12:929][889]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.30-21.26.12:929][889]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.30-21.26.12:929][889]MaterialEditorStats: Shader Count: 2
+[2022.11.30-21.26.12:929][889]MaterialEditorStats: Texture samplers: 5/16
+[2022.11.30-21.26.12:929][889]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.30-21.26.12:929][889]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.30-21.26.12:929][889]MaterialEditorStats: Shader Count: 2
+[2022.11.30-21.26.23:241][225]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Roverhead.Roverhead
+[2022.11.30-21.26.23:242][225]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Roverhead.Roverhead
+[2022.11.30-21.26.23:242][225]LogActorFactory: Actor Factory spawned StaticMesh /Game/TESTCHAR/Props/Roverhead.Roverhead as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_14
+[2022.11.30-21.26.23:793][262]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Roverhead.Roverhead
+[2022.11.30-21.26.23:793][262]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Roverhead.Roverhead
+[2022.11.30-21.26.23:794][262]LogActorFactory: Actor Factory spawned StaticMesh /Game/TESTCHAR/Props/Roverhead.Roverhead as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_15
+[2022.11.30-21.26.27:160][403]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Shotgun.Shotgun
+[2022.11.30-21.26.27:160][403]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Shotgun.Shotgun
+[2022.11.30-21.26.27:161][403]LogActorFactory: Actor Factory spawned StaticMesh /Game/TESTCHAR/Props/Shotgun.Shotgun as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_16
+[2022.11.30-21.26.28:078][467]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Shotgun.Shotgun
+[2022.11.30-21.26.28:079][467]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Shotgun.Shotgun
+[2022.11.30-21.26.28:080][467]LogActorFactory: Actor Factory spawned StaticMesh /Game/TESTCHAR/Props/Shotgun.Shotgun as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_17
+[2022.11.30-21.26.29:488][526]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/spacefood2.spacefood2
+[2022.11.30-21.26.29:488][526]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/spacefood2.spacefood2
+[2022.11.30-21.26.29:488][526]LogActorFactory: Actor Factory spawned StaticMesh /Game/TESTCHAR/Props/spacefood2.spacefood2 as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_18
+[2022.11.30-21.26.30:912][629]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/spacefood2.spacefood2
+[2022.11.30-21.26.30:912][629]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/spacefood2.spacefood2
+[2022.11.30-21.26.30:913][629]LogActorFactory: Actor Factory spawned StaticMesh /Game/TESTCHAR/Props/spacefood2.spacefood2 as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_19
+[2022.11.30-21.26.41:316][122]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.30-21.26.41:316][122]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.30-21.26.43:775][263]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.30-21.26.43:775][263]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.30-21.26.45:659][381]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.30-21.26.45:659][381]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.30-21.27.08:992][587]LogEditorFactories: Performing atomic reimport of [C:/Users/niall/OneDrive/Documents/maya/projects/default/scenes/Helmet.fbx]
+[2022.11.30-21.27.09:006][587]LogFbx: Loading FBX Scene from C:/Users/niall/OneDrive/Documents/maya/projects/default/scenes/Helmet.fbx
+[2022.11.30-21.27.09:022][587]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.30-21.27.09:090][587]LogFbx: Display: Triangulating static mesh pCylinder4
+[2022.11.30-21.27.09:115][587]LogStaticMesh: Display: Building static mesh Helmet...
+[2022.11.30-21.27.09:194][587]LogStaticMesh: Built static mesh [0.08s] /Game/TESTCHAR/Props/Helmet.Helmet
+[2022.11.30-21.27.09:219][587]LogEditorFactories: -- imported successfully
+[2022.11.30-21.27.09:221][587]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'HelmetUV' was renamed 'HelmetUV_ncl1_1' 
+[2022.11.30-21.27.16:095][838]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Helmet.Helmet
+[2022.11.30-21.27.16:095][838]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Helmet.Helmet
+[2022.11.30-21.27.16:095][838]LogActorFactory: Actor Factory spawned StaticMesh /Game/TESTCHAR/Props/Helmet.Helmet as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_20
+[2022.11.30-21.27.18:120][990]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Helmet.Helmet
+[2022.11.30-21.27.18:120][990]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/Helmet.Helmet
+[2022.11.30-21.27.18:121][990]LogActorFactory: Actor Factory spawned StaticMesh /Game/TESTCHAR/Props/Helmet.Helmet as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_21
+[2022.11.30-21.27.19:157][ 28]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.30-21.27.28:893][409]LogViewport: Scene viewport resized to 1066x412, mode Windowed.
+[2022.11.30-21.27.31:591][445]LogViewport: Scene viewport resized to 1526x576, mode Windowed.
+[2022.11.30-21.27.36:555][634]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_21.StaticMeshComponent0)
+[2022.11.30-21.27.37:118][658]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_21.StaticMeshComponent0)
+[2022.11.30-21.27.40:285][784]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.30-21.28.53:065][609]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.30-21.29.00:647][880]Cmd: DELETE
+[2022.11.30-21.29.00:648][880]Cmd: ACTOR DELETE
+[2022.11.30-21.29.00:650][880]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.30-21.29.00:723][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.11.30-21.29.00:736][880]LogEditorActor: Deleted 1 Actors (0.089 secs)
+[2022.11.30-21.29.35:359][351]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/SpacePen.SpacePen
+[2022.11.30-21.29.35:359][351]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/SpacePen.SpacePen
+[2022.11.30-21.29.35:360][351]LogActorFactory: Actor Factory spawned StaticMesh /Game/TESTCHAR/Props/SpacePen.SpacePen as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_23
+[2022.11.30-21.29.35:824][393]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/SpacePen.SpacePen
+[2022.11.30-21.29.35:824][393]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/TESTCHAR/Props/SpacePen.SpacePen
+[2022.11.30-21.29.35:825][393]LogActorFactory: Actor Factory spawned StaticMesh /Game/TESTCHAR/Props/SpacePen.SpacePen as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_24
+[2022.11.30-21.29.38:969][512]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.30-21.29.46:013][789]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.30-21.29.48:831][899]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.30-21.33.28:921][ 94]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.30-21.34.00:413][406]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.30-21.34.28:264][512]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2022.11.30-21.34.28:294][512]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto8
+[2022.11.30-21.34.28:294][512]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/VRTemplateMap_Auto8F4E59A0B4B7CEEBDC77B5CA2C086ADE2.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto8.umap'
+[2022.11.30-21.34.28:297][512]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.063
+[2022.11.30-21.34.28:298][512]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.063
+[2022.11.30-21.34.28:298][512]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TESTCHAR/Props/Helmet] ([1] browsable assets)...
+[2022.11.30-21.34.28:308][512]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TESTCHAR/Props/Helmet.Helmet]
+[2022.11.30-21.34.28:308][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/TESTCHAR/Props/Helmet]
+[2022.11.30-21.34.28:308][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/Helmet" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/TESTCHAR/Props/Helmet_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2022.11.30-21.34.28:315][512]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TESTCHAR/Props/Helmet_Auto8
+[2022.11.30-21.34.28:315][512]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Helmet_Auto8EEBE8942448E95F9F3F90EBBA54B96B1.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Autosaves/Game/TESTCHAR/Props/Helmet_Auto8.uasset'
+[2022.11.30-21.34.28:316][512]LogFileHelpers: Auto-saving content packages took 0.018
+[2022.11.30-21.35.29:281][899]Cmd: DELETE
+[2022.11.30-21.35.29:281][899]Cmd: ACTOR DELETE
+[2022.11.30-21.35.29:284][899]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.30-21.35.29:315][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.11.30-21.35.29:319][899]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2022.11.30-21.35.29:659][912]Cmd: DELETE
+[2022.11.30-21.35.29:659][912]Cmd: ACTOR DELETE
+[2022.11.30-21.35.29:661][912]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.30-21.35.29:689][912]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.11.30-21.35.29:691][912]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2022.11.30-21.35.30:472][942]Cmd: DELETE
+[2022.11.30-21.35.30:472][942]Cmd: ACTOR DELETE
+[2022.11.30-21.35.30:474][942]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.30-21.35.30:504][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.11.30-21.35.30:507][942]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2022.11.30-21.35.31:433][978]Cmd: DELETE
+[2022.11.30-21.35.31:433][978]Cmd: ACTOR DELETE
+[2022.11.30-21.35.31:435][978]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.30-21.35.31:464][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.11.30-21.35.31:467][978]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2022.11.30-21.35.32:141][  4]Cmd: DELETE
+[2022.11.30-21.35.32:141][  4]Cmd: ACTOR DELETE
+[2022.11.30-21.35.32:144][  4]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.30-21.35.32:173][  4]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.11.30-21.35.32:176][  4]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2022.11.30-21.35.34:673][107]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.11.30-21.35.36:218][107]LogSlate: Window 'Save Content' being destroyed
+[2022.11.30-21.35.36:298][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/Props/Helmet" FILE="../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/Helmet.uasset" SILENT=true
+[2022.11.30-21.35.36:340][107]LogSavePackage: Moving output files for package: /Game/TESTCHAR/Props/Helmet
+[2022.11.30-21.35.36:341][107]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/Helmet4C6C9518496C53596EDABAB83B6C0781.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/TESTCHAR/Props/Helmet.uasset'
+[2022.11.30-21.35.36:374][107]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.11.30-21.35.36:394][107]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2022.11.30-21.35.36:395][107]LogSavePackage: Moving '../../../../BazingaProject/NewSpace/ProjectSpace/Saved/VRTemplateMap8E2E76D84FBCC61F07E64D8FC6F1F0C3.tmp' to '../../../../BazingaProject/NewSpace/ProjectSpace/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2022.11.30-21.35.36:409][107]LogFileHelpers: Saving map 'VRTemplateMap' took 0.067
+[2022.11.30-21.35.36:427][107]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.30-21.35.36:427][107]LogContentValidation: Display: Validating StaticMesh /Game/TESTCHAR/Props/Helmet.Helmet
+[2022.11.30-21.35.36:427][107]LogContentValidation: Display: Validating World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
